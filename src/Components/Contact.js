@@ -13,7 +13,7 @@ const Contact = () => {
                 <strong>Padraig Naughton</strong>
               </span>
               <br />
-              <span>(914) 643-4920</span>
+              <span><a href="tel:9146434928">(914) 643-4920</a></span>
             </p>
           </Col>
           <Col lg={6} md={6} sm={6} xs={6}>
@@ -22,7 +22,9 @@ const Contact = () => {
                 <strong>Michael Lombardo</strong>
               </span>
               <br />
-              <span>(516) 884-5806</span>
+              <span>
+                <a href="tel:5168845806">(516) 884-5806</a>
+              </span>
             </p>
           </Col>
         </Row>
