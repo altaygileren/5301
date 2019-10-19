@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
-import { Container, Row, Col } from 'react-grid-system';
+import { Container, Row, Col } from 'react-bootstrap';
 import Hero from './Hero';
 import Floorplans from './Floorplans';
 import Welcome from './Welcome';
@@ -79,26 +79,6 @@ class Section extends React.Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-default navbar-fixed-top stickyTop">
-          <div className="container-fluid">
-            <div className="moveDown collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <Container>
-                <Row>
-                  <Col lg={6} sm={4} xs={2}></Col>
-                  <Col lg={2} sm={2} xs={3}>
-                    <Link activeClass="active" className="test1" to="test1" spy={true} smooth={true} duration={500} >Building</Link>
-                  </Col>
-                  <Col lg={2} sm={2} xs={4}>
-                    <Link activeClass="active" className="test3" to="test3" spy={true} smooth={true} duration={500}>Floor plans</Link>
-                  </Col>
-                  <Col lg={2} sm={2} xs={3}>
-                    <Link activeClass="active" className="test4" to="test4" spy={true} smooth={true} duration={500} >Contact</Link>
-                  </Col>
-                </Row>
-              </Container>
-            </div>
-          </div>
-        </nav>
         <div className="moveUp">
           <Hero />
         </div>
