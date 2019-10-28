@@ -15,9 +15,9 @@ const Contact = () => {
               <br />
               <span><p>Bridge House Properties, LLC</p></span>
               <br />
-              <span><a href="tel:2123619595">(212) 361-9595</a></span>
+              <span className="contactLink"><a href="tel:2123619595">(212) 361-9595</a></span>
               <br />
-              <span><a href="mailto:lkhoury@bridgehouse.com">lkhoury@bridgehouse.com</a></span>
+              <span className="contactLink"><a href="mailto:lkhoury@bridgehouse.com">lkhoury@bridgehouse.com</a></span>
             </p>
           </Col>
           <Col lg={6} md={6} sm={6} xs={6}>
@@ -28,9 +28,9 @@ const Contact = () => {
               <br />
               <span><p>Bridge House Properties, LLC</p></span>
               <br />
-              <span><a href="tel:9172933156">(917) 293-3156</a></span>
+              <span className="contactLink"><a href="tel:9172933156">(917) 293-3156</a></span>
               <br />
-              <span><a href="mailto:brangel@bridgehouse.com">brangel@bridgehouse.com</a></span>
+              <span className="contactLink"><a href="mailto:brangel@bridgehouse.com">brangel@bridgehouse.com</a></span>
             </p>
           </Col>
         </Row>

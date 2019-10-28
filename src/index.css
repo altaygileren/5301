@@ -168,7 +168,13 @@ body {
   .directLinks {
     font-size: 0.80rem;
     padding: 0;
-
+  }
+  .contactName {
+    font-size: 1rem;
+  }
+  .contactLink a {
+    color: red;
+    font-size: 0.8rem;
   }
 }
 
@@ -179,11 +185,15 @@ body {
   .stickyTop a {
     font-size: 1rem;
   }
+  .contactLink a {
+    color: red;
+  }
   .divTitle {
     font-size: 2rem;
   }
   .contactDiv {
     height: 60vh;
+    font-size: 0.8rem;
   }
   .timeCol {
     margin-bottom: 1rem;
