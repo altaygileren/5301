@@ -10,21 +10,27 @@ const Contact = () => {
           <Col lg={6} md={6} sm={6} xs={6}>
             <p>
               <span className="contactName">
-                <strong>Padraig Naughton</strong>
+                <strong>Layla Khoury</strong>
               </span>
               <br />
-              <span><a href="tel:9146434928">(914) 643-4920</a></span>
+              <span><p>Bridge House Properties, LLC</p></span>
+              <br />
+              <span><a href="tel:2123619595">(212) 361-9595</a></span>
+              <br />
+              <span><a href="mailto:lkhoury@bridgehouse.com">lkhoury@bridgehouse.com</a></span>
             </p>
           </Col>
           <Col lg={6} md={6} sm={6} xs={6}>
             <p>
               <span className="contactName">
-                <strong>Michael Lombardo</strong>
+                <strong>Benjamin Rangel</strong>
               </span>
               <br />
-              <span>
-                <a href="tel:5168845806">(516) 884-5806</a>
-              </span>
+              <span><p>Bridge House Properties, LLC</p></span>
+              <br />
+              <span><a href="tel:9172933156">(917) 293-3156</a></span>
+              <br />
+              <span><a href="mailto:brangel@bridgehouse.com">brangel@bridgehouse.com</a></span>
             </p>
           </Col>
         </Row>

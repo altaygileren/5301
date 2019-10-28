@@ -6,6 +6,7 @@ import Floorplans from './Floorplans';
 import Welcome from './Welcome';
 import Photogallery from './Photogallery';
 import Contact from './Contact';
+import Transportation from './Transportation';
 import Parallaximg from './Parallaximg';
 import parallaximg2 from '../img/parallaximg2.png';
 import parallaximg3 from '../img/parallaximg3.png';
@@ -85,16 +86,18 @@ class Section extends React.Component {
         <Element name="test1" className="element" >
           <Welcome />
         </Element>
-
         <Element name="test2" className="element">
+          <Transportation />
+        </Element>
+        <Element name="test3" className="element">
           <Photogallery />
         </Element>
         <Parallaximg info={firstParallax} />
-        <Element name="test3" className="element">
+        <Element name="test4" className="element">
           <Floorplans />
         </Element>
         <Parallaximg info={secondParallax} />
-        <Element name="test4" className="element">
+        <Element name="test5" className="element">
           <Contact />
         </Element>
       </div>
