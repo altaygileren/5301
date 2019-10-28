@@ -19,6 +19,8 @@ body {
 }
 .welcomeDiv {
   /* top: -10rem; */
+  margin-top: 5rem;
+  text-align: left;
 }
 .heroTxt {
   font-family: 'Abril Fatface', cursive;
@@ -60,9 +62,6 @@ body {
 }
 .floorPlansStyle {
   width: 100%;
-}
-.welcomeDiv {
-  text-align: left;
 }
 .welcomeTxt {
   font-family: 'Abril Fatface', cursive;

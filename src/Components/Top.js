@@ -83,20 +83,23 @@ class Section extends React.Component {
       53-01 LIC</span></Col>
         <Nav className="mr-auto">
           <Row className="rowLinks">
-            <Col lg={3} xs={3}>
-              <Link activeClass="active" className="test1 directLinks" to="test1" spy={true} smooth={true} duration={500}>Location</Link>
+            <Col lg={2} xs={2}>
+              <Link activeClass="active" className="test1 directLinks" to="test1" spy={true} smooth={true} duration={500}>Welcome</Link>
             </Col>
-            <Col lg={3} xs={3}>
-              <Link activeClass="active" className="test2 directLinks" to="test2" spy={true} smooth={true} duration={500}>Building</Link>
+            <Col lg={2} xs={2}>
+              <Link activeClass="active" className="test2 directLinks" to="test2" spy={true} smooth={true} duration={500}>Location</Link>
             </Col>
-            <Col lg={3} xs={3}>
-              <Link activeClass="active" className="test3 directLinks" to="test3" spy={true} smooth={true} duration={500}>Transportation</Link>
+            <Col lg={2} xs={2}>
+              <Link activeClass="active" className="test3 directLinks" to="test3" spy={true} smooth={true} duration={500}>Building</Link>
             </Col>
-            <Col lg={3} xs={3}>
-              <Link activeClass="active" className="test4 directLinks" to="test4" spy={true} smooth={true} duration={500}>Floor plans</Link>
+            <Col lg={2} xs={2}>
+              <Link activeClass="active" className="test4 directLinks" to="test4" spy={true} smooth={true} duration={500}>Transportation</Link>
             </Col>
-            <Col lg={3} xs={3}>
-              <Link activeClass="active" className="test5 directLinks" to="test5" spy={true} smooth={true} duration={500} >Contact</Link>
+            <Col lg={2} xs={2}>
+              <Link activeClass="active" className="test5 directLinks" to="test5" spy={true} smooth={true} duration={500}>Floor plans</Link>
+            </Col>
+            <Col lg={2} xs={2}>
+              <Link activeClass="active" className="test6 directLinks" to="test6" spy={true} smooth={true} duration={500} >Contact</Link>
             </Col>
           </Row>
         </Nav>
