@@ -28,7 +28,7 @@ body {
   padding-top: 1.2rem;
 }
 .moveUp {
-  margin-top: -5rem;
+  margin-top: -6rem;
 }
 .heroImgDiv {
   background-color: rgba(0,0,0,0.6);
@@ -47,7 +47,7 @@ body {
   z-index: 1;
   /* background-color: #66B4BC; */
   background-color: rgba(93, 211, 225, 0.8);
-  height: 4rem;
+  height: 6rem;
   color: white;
   /* font-family: 'Khula', sans-serif; */
   font-family: 'Prompt', sans-serif;

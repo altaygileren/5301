@@ -20,22 +20,22 @@ const secondParallax = {
 }
 
 class Section extends React.Component {
-  
+
   constructor(props) {
     super(props);
     this.scrollToTop = this.scrollToTop.bind(this);
   }
-  
+
   componentDidMount() {
-    
+
     Events.scrollEvent.register('begin', function () {
       console.log("begin", arguments);
     });
-    
+
     Events.scrollEvent.register('end', function () {
       console.log("end", arguments);
     });
-    
+
   }
   scrollToTop() {
     scroll.scrollToTop();
@@ -48,29 +48,29 @@ class Section extends React.Component {
     })
   }
   scrollToWithContainer() {
-    
+
     let goToContainer = new Promise((resolve, reject) => {
-      
+
       Events.scrollEvent.register('end', () => {
         resolve();
         Events.scrollEvent.remove('end');
       });
-      
+
       scroller.scrollTo('scroll-container', {
         duration: 800,
         delay: 0,
         smooth: 'easeInOutQuart'
       });
-      
+
     });
-    
+
     goToContainer.then(() =>
-    scroller.scrollTo('scroll-container-second-element', {
-      duration: 800,
-      delay: 0,
-      smooth: 'easeInOutQuart',
-      containerId: 'scroll-container'
-    }));
+      scroller.scrollTo('scroll-container-second-element', {
+        duration: 800,
+        delay: 0,
+        smooth: 'easeInOutQuart',
+        containerId: 'scroll-container'
+      }));
   }
   componentWillUnmount() {
     Events.scrollEvent.remove('begin');
@@ -79,24 +79,27 @@ class Section extends React.Component {
   render() {
     return (
       <Navbar fixed="top" className="stickyTop" expand="lg">
-      <Col lg={3} xs={12}><span className="headerBrand">Bridge House Properties, LLC
+        <Col lg={3} xs={12}><span className="headerBrand">Bridge House Properties, LLC
       53-01 LIC</span></Col>
-      <Nav className="mr-auto">
-      <Row className="rowLinks">
-      <Col lg={3} xs={3}>
-      <Link activeClass="active" className="test1 directLinks" to="test1" spy={true} smooth={true} duration={500}>Building</Link>
-      </Col>
-      <Col lg={3} xs={3}>
-      <Link activeClass="active" className="test2 directLinks" to="test2" spy={true} smooth={true} duration={500}>Transportation</Link>
-      </Col>
-      <Col lg={3} xs={3}>
-      <Link activeClass="active" className="test4 directLinks" to="test4" spy={true} smooth={true} duration={500}>Floor plans</Link>
-      </Col>
-      <Col lg={3} xs={3}>
-      <Link activeClass="active" className="test5 directLinks" to="test5" spy={true} smooth={true} duration={500} >Contact</Link>
-      </Col>
-      </Row>
-      </Nav>
+        <Nav className="mr-auto">
+          <Row className="rowLinks">
+            <Col lg={3} xs={3}>
+              <Link activeClass="active" className="test1 directLinks" to="test1" spy={true} smooth={true} duration={500}>Location</Link>
+            </Col>
+            <Col lg={3} xs={3}>
+              <Link activeClass="active" className="test2 directLinks" to="test2" spy={true} smooth={true} duration={500}>Building</Link>
+            </Col>
+            <Col lg={3} xs={3}>
+              <Link activeClass="active" className="test3 directLinks" to="test3" spy={true} smooth={true} duration={500}>Transportation</Link>
+            </Col>
+            <Col lg={3} xs={3}>
+              <Link activeClass="active" className="test4 directLinks" to="test4" spy={true} smooth={true} duration={500}>Floor plans</Link>
+            </Col>
+            <Col lg={3} xs={3}>
+              <Link activeClass="active" className="test5 directLinks" to="test5" spy={true} smooth={true} duration={500} >Contact</Link>
+            </Col>
+          </Row>
+        </Nav>
       </Navbar>
       // <div>
       //   <nav className="navbar navbar-default navbar-fixed-top stickyTop">
@@ -120,10 +123,9 @@ class Section extends React.Component {
       //     </div>
       //   </nav>
       // </div>
-      );
-    }
-  };
-  
-  export default Section;
-  
-  
+    );
+  }
+};
+
+export default Section;
+
