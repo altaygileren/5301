@@ -79,7 +79,7 @@ class Section extends React.Component {
   render() {
     return (
       <Navbar fixed="top" className="stickyTop" expand="lg">
-      <Col lg={3} xs={12}><span  className="headerBrand">Bridge House Properties, LLC
+      <Col lg={3} xs={12}><span className="headerBrand">Bridge House Properties, LLC
       53-01 LIC</span></Col>
       <Nav className="mr-auto">
       <Row className="rowLinks">
