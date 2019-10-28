@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/5301/static/css/main.60bb76ec.chunk.css",
-    "main.js": "/5301/static/js/main.84baee17.chunk.js",
-    "main.js.map": "/5301/static/js/main.84baee17.chunk.js.map",
+    "main.css": "/5301/static/css/main.952b1545.chunk.css",
+    "main.js": "/5301/static/js/main.b1b04b74.chunk.js",
+    "main.js.map": "/5301/static/js/main.b1b04b74.chunk.js.map",
     "runtime-main.js": "/5301/static/js/runtime-main.26c760d4.js",
     "runtime-main.js.map": "/5301/static/js/runtime-main.26c760d4.js.map",
-    "static/js/2.f53b0f66.chunk.js": "/5301/static/js/2.f53b0f66.chunk.js",
-    "static/js/2.f53b0f66.chunk.js.map": "/5301/static/js/2.f53b0f66.chunk.js.map",
+    "static/js/2.772f044b.chunk.js": "/5301/static/js/2.772f044b.chunk.js",
+    "static/js/2.772f044b.chunk.js.map": "/5301/static/js/2.772f044b.chunk.js.map",
     "index.html": "/5301/index.html",
-    "precache-manifest.ef461d0070e329a7a21e8713c2265d08.js": "/5301/precache-manifest.ef461d0070e329a7a21e8713c2265d08.js",
+    "precache-manifest.a1287e6370ba6cb743b284165eba6313.js": "/5301/precache-manifest.a1287e6370ba6cb743b284165eba6313.js",
     "service-worker.js": "/5301/service-worker.js",
-    "static/css/main.60bb76ec.chunk.css.map": "/5301/static/css/main.60bb76ec.chunk.css.map",
+    "static/css/main.952b1545.chunk.css.map": "/5301/static/css/main.952b1545.chunk.css.map",
     "static/media/floor1.jpg": "/5301/static/media/floor1.6c6c5ca2.jpg",
     "static/media/floor2.jpg": "/5301/static/media/floor2.4a2e4944.jpg",
     "static/media/floor3.jpg": "/5301/static/media/floor3.73408113.jpg",
@@ -18,13 +18,14 @@
     "static/media/floorplan.png": "/5301/static/media/floorplan.37501655.png",
     "static/media/heroimg.png": "/5301/static/media/heroimg.a3858106.png",
     "static/media/kitchen.jpg": "/5301/static/media/kitchen.44ddcac0.jpg",
+    "static/media/location.png": "/5301/static/media/location.02001d42.png",
     "static/media/parallaximg2.png": "/5301/static/media/parallaximg2.b53e5e12.png",
     "static/media/parallaximg3.png": "/5301/static/media/parallaximg3.ad287a59.png"
   },
   "entrypoints": [
     "static/js/runtime-main.26c760d4.js",
-    "static/js/2.f53b0f66.chunk.js",
-    "static/css/main.60bb76ec.chunk.css",
-    "static/js/main.84baee17.chunk.js"
+    "static/js/2.772f044b.chunk.js",
+    "static/css/main.952b1545.chunk.css",
+    "static/js/main.b1b04b74.chunk.js"
   ]
 }
