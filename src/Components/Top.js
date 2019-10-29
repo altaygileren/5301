@@ -9,6 +9,7 @@ import Contact from './Contact';
 import Parallaximg from './Parallaximg';
 import parallaximg2 from '../img/parallaximg2.png';
 import parallaximg3 from '../img/parallaximg3.png';
+import Logo from '../img/bridgeHouseLogo.png';
 
 const firstParallax = {
   img: `${parallaximg2}`,
@@ -79,13 +80,9 @@ class Section extends React.Component {
   render() {
     return (
       <Navbar fixed="top" className="stickyTop" expand="lg">
-        <Col lg={3} xs={12}><span className="headerBrand">Bridge House Properties, LLC
-      53-01 LIC</span></Col>
+        <Col lg={3} xs={12}><span className="headerBrand"><img className="logo" src={Logo} /></span></Col>
         <Nav className="mr-auto">
           <Row className="rowLinks">
-            <Col lg={2} xs={2}>
-              <Link activeClass="active" className="test1 directLinks" to="test1" spy={true} smooth={true} duration={500}>Welcome</Link>
-            </Col>
             <Col lg={2} xs={2}>
               <Link activeClass="active" className="test2 directLinks" to="test2" spy={true} smooth={true} duration={500}>Location</Link>
             </Col>
@@ -95,7 +92,7 @@ class Section extends React.Component {
             <Col lg={2} xs={2}>
               <Link activeClass="active" className="test4 directLinks" to="test4" spy={true} smooth={true} duration={500}>Transportation</Link>
             </Col>
-            <Col lg={2} xs={2}>
+            <Col lg={3} xs={3}>
               <Link activeClass="active" className="test5 directLinks" to="test5" spy={true} smooth={true} duration={500}>Floor plans</Link>
             </Col>
             <Col lg={2} xs={2}>

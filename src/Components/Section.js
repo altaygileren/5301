@@ -11,6 +11,8 @@ import Transportation from './Transportation';
 import Parallaximg from './Parallaximg';
 import parallaximg2 from '../img/parallaximg2.png';
 import parallaximg3 from '../img/parallaximg3.png';
+import Parallax2 from './Parallax2';
+import Buildingspecs from './Buildingspecs';
 
 const firstParallax = {
   img: `${parallaximg2}`,
@@ -100,7 +102,8 @@ class Section extends React.Component {
         <Element name="test5" className="element">
           <Floorplans />
         </Element>
-        <Parallaximg info={secondParallax} />
+        {/* <Parallaximg info={secondParallax} /> */}
+        <Buildingspecs />
         <Element name="test6" className="element">
           <Contact />
         </Element>

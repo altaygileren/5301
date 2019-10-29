@@ -10,8 +10,11 @@ const Location = () => {
             <p className="divTitle">Location</p>
           </div>
         </Row>
-        <img src={Locationimg} />
+        <div className="bringMeHereDiv">
+              <a href="https://moovitapp.com/index/en/public_transit-53_01_11th_Street-NYCNJ-site_48476052-121">Bring me here</a>
+            </div>
       </Container>
+      <img className="locationImg" src={Locationimg} />
     </div>
   )
 }
