@@ -9,7 +9,7 @@ const Welcome = () => {
         <Row>
           <Col lg={5}></Col>
           <Col lg={7}>
-            <p className="subTitle">You're ready to move-in office space</p>
+            <p className="subTitle">Your ready to move-in office space</p>
           </Col>
         </Row>
         <p className="welcomeIntro">
