@@ -89,40 +89,18 @@ class Section extends React.Component {
             <Col lg={2} xs={2}>
               <Link activeClass="active" className="test3 directLinks" to="test3" spy={true} smooth={true} duration={500}>Building</Link>
             </Col>
-            <Col lg={2} xs={2}>
+            <Col lg={3} xs={3}>
               <Link activeClass="active" className="test4 directLinks" to="test4" spy={true} smooth={true} duration={500}>Transportation</Link>
             </Col>
-            <Col lg={3} xs={3}>
+            <Col lg={2} xs={3}>
               <Link activeClass="active" className="test5 directLinks" to="test5" spy={true} smooth={true} duration={500}>Floor plans</Link>
             </Col>
-            <Col lg={2} xs={2}>
+            <Col lg={1} xs={1}>
               <Link activeClass="active" className="test6 directLinks" to="test6" spy={true} smooth={true} duration={500} >Contact</Link>
             </Col>
           </Row>
         </Nav>
       </Navbar>
-      // <div>
-      //   <nav className="navbar navbar-default navbar-fixed-top stickyTop">
-      //     <div className="container-fluid">
-      //       <div className="moveDown collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      //         <Container>
-      //           <Row>
-      //             <Col lg={6} sm={4} xs={2}></Col>
-      //             <Col lg={2} sm={2} xs={3}>
-      //               <Link activeClass="active" className="test1" to="test1" spy={true} smooth={true} duration={500} >Building</Link>
-      //             </Col>
-      //             <Col lg={2} sm={2} xs={4}>
-      //               <Link activeClass="active" className="test3" to="test3" spy={true} smooth={true} duration={500}>Floor plans</Link>
-      //             </Col>
-      //             <Col lg={2} sm={2} xs={3}>
-      //               <Link activeClass="active" className="test4" to="test4" spy={true} smooth={true} duration={500} >Contact</Link>
-      //             </Col>
-      //           </Row>
-      //         </Container>
-      //       </div>
-      //     </div>
-      //   </nav>
-      // </div>
     );
   }
 };

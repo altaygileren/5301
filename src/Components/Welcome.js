@@ -1,22 +1,26 @@
 import React from 'react'
+import skyView from '../img/skyView.png';
+import { Parallax, Background } from 'react-parallax';
 import { Container, Row, Col } from 'react-bootstrap';
 
 const Welcome = () => {
   return (
-    <Container>
-      <div className="welcomeDiv">
-        <p className="welcomeTxt">WELCOME TO BRIDGE HOUSE LIC</p>
-        <Row>
-          <Col lg={5}></Col>
-          <Col lg={7}>
-            <p className="subTitle">Your ready to move-in office space</p>
-          </Col>
-        </Row>
-        <p className="welcomeIntro">
-          53-01 LIC offers 24,024 square feet of newly renovated workspace within a once Long Island City industrial building. Open spaces and natural light together with swift commutes and a host of nearby restaurants and gourmet cafes make 53-01 LIC a smart and alternative to Manhattan just one stop from Grand Central to Vernon Jackson on the 7 train. Alternatively, we have parking for those who enjoy a drive in the mornings!
-      </p>
-      </div>
-    </Container>
+    <div className="welcomeDiv">
+      <p className="welcomeTxt">YOUR TURN-KEY OFFICE SPACE AWAITS</p>
+      {/* <img src={skyView} /> */}
+      <Parallax
+        bgImage={skyView}
+        bgImageAlt="Long Island City"
+        contentClassName="testThis"
+        strength={800}
+      >
+        <div className="heroImgDiv" style={{ height: 1000 }}>
+          <div className="heroDiv">
+            <p className="subTitle">Long Island City, the new trend</p>
+          </div>
+        </div>
+      </Parallax>
+    </div>
   )
 }
 

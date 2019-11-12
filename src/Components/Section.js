@@ -7,6 +7,7 @@ import Welcome from './Welcome';
 import Photogallery from './Photogallery';
 import Contact from './Contact';
 import Location from './Location';
+import Youroffice from './Youroffice';
 import Transportation from './Transportation';
 import Parallaximg from './Parallaximg';
 import parallaximg2 from '../img/parallaximg2.png';
@@ -86,6 +87,7 @@ class Section extends React.Component {
         <div className="moveUp">
           <Hero />
         </div>
+        <Youroffice />
         <Element name="test1" className="element" >
           <Welcome />
         </Element>

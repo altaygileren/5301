@@ -36,7 +36,13 @@ body {
   padding-top: 1.2rem;
 }
 .moveUp {
-  margin-top: -6rem;
+  margin-top: -7.3rem;
+}
+.contactInfoDiv {
+  margin-top: 10rem;
+}
+.contactDiv {
+  margin-top: 4rem;
 }
 .heroImgDiv {
   background-color: rgba(0,0,0,0.6);
@@ -88,7 +94,7 @@ body {
 }
 .welcomeTxt {
   font-family: 'Saira Stencil One', cursive;
-  font-size: 4rem;
+  font-size: 3.66rem;
   color: #323232;
 }
 
@@ -116,8 +122,22 @@ body {
   font-size: 5rem;
 }
 .subTitle {
-  font-family: 'Saira Stencil One', cursive;
-  font-size: 2rem;
+  /* font-family: 'Saira Stencil One', cursive; */
+  font-family: 'Prompt';
+  padding-left: 1.5rem;
+  /* padding-top: 0.5rem; */
+  font-size: 3.5rem;
+  margin-top: -9rem;
+  font-weight: 800;
+  color: white;
+}
+.react-parallax-content {
+  text-align: left;
+  left: 0;
+}
+.subTitle {
+  width: 100vw;
+  height: 100vh;
 }
 .directLinks a {
   color: red;
@@ -144,9 +164,10 @@ body {
   color: white;
 }
 .rowLinks {
-  font-size:0.8rem;
+  font-size: 2rem;
+  font-weight: 800;
   width: 100%;
-  text-align: center;
+  text-align: left;
 }
 .sevenTrain {
   background-color:	#9400D3;
@@ -189,6 +210,14 @@ body {
 .transportationDiv {
   /* height: 60vh; */
 }
+.transportImgDiv {
+  /* text-align: center; */
+  /* margin: 0 auto; */
+  margin-bottom: 3rem;
+}
+.directionsMapImg {
+  width: 100%;
+}
 
 .timeTitle {
   font-family: 'Saira Stencil One', cursive;
@@ -205,7 +234,9 @@ body {
 }
 
 .sectionTitle {
+  padding-top: 5rem;
   text-align: left;
+  height: 150vh;
 }
 .headerBrand {
   color: white;
@@ -218,6 +249,71 @@ body {
   color: black;
   font-family: 'Prompt';
 }
+
+
+.sectionHeader {
+  margin-top: 30rem;
+  font-size: 3rem;
+  margin-bottom: 10rem;
+  width: 100%;
+  top: 0;
+  transform: rotate(-90deg);
+  font-family: 'Saira Stencil One', cursive;
+  /* Legacy vendor prefixes that you probably don't need... */
+  
+  /* Safari */
+  -webkit-transform: rotate(-90deg);
+  
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+  
+  /* IE */
+  -ms-transform: rotate(-90deg);
+  
+  /* Opera */
+  -o-transform: rotate(-90deg);
+}
+.sectionHeader p {
+  width: 500%;
+}
+
+/* p {
+  
+  background: pink;
+  margin: 1px 0;
+  border: 1px solid black;
+} */
+.txtRotation-wrapper-outer {
+  display: table;
+}
+.txtRotation-wrapper-inner {
+  padding: 50% 0;
+  height: 0;
+}
+.txtElement-to-rotate {
+  display: block;
+  transform-origin: top left;
+  /* Note: for a CLOCKWISE rotation, use the commented-out
+     transform instead of this one. */
+  transform: rotate(-90deg) translate(-100%);
+  /* transform: rotate(90deg) translate(0, -100%); */
+  margin-top: -50%;
+
+  /* Not vital, but possibly a good idea if the element you're rotating contains
+     text and you want a single long vertical line of text and the pre-rotation
+     width of your element is small enough that the text wraps: */
+  white-space: nowrap;
+}
+
+.element-to-rotate {
+  white-space: nowrap;
+}
+
+
+
+
+
+
 
 
 /* Media query */
@@ -268,8 +364,10 @@ body {
   .col-lg-2 {
     margin-right: 0.10rem;
   }
+  .welcomeTxt {
+    font-size: 2rem;
+  }
 }
-
 .col-3 {
   padding: 0;
 }

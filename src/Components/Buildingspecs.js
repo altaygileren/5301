@@ -41,9 +41,21 @@ function Buildingspecs() {
   };
 
   return (
-    <div>
+
+    <div className="">
+
       <Row>
-        <Col lg={6}>
+        <Col lg={1} md={1} sm={1} xs={1}>
+          <div className="sectionHeader">
+            {/* <p className="transportTxt">TRANSPORTATION</p> */}
+            <div class="rotation-wrapper-outer">
+              <div class="rotation-wrapper-inner">
+                <p className="element-to-rotate">BUILDING SPECS</p>
+              </div>
+            </div>
+          </div>
+        </Col>
+        <Col lg={5} md={5} sm={11} xs={11}>
           <div className="secondParallaxTxt">
             <Row>
               <Col lg={2}>Location</Col>
@@ -126,25 +138,142 @@ function Buildingspecs() {
             </Row>
           </div>
         </Col>
-        <Col lg={6}>
-          <Gallery photos={imgs} onClick={openLightbox} />
-          <ModalGateway>
-            {viewerIsOpen ? (
-              <Modal onClose={closeLightbox}>
-                <Carousel
-                  currentIndex={currentImage}
-                  views={imgs.map(x => ({
-                    ...x,
-                    srcset: x.srcSet,
-                    caption: x.title
-                  }))}
-                />
-              </Modal>
-            ) : null}
-          </ModalGateway>
+        <Col lg={6} md={6} sm={12} xs={12}>
+            <Gallery photos={imgs} onClick={openLightbox} />
+            <ModalGateway>
+              {viewerIsOpen ? (
+                <Modal onClose={closeLightbox}>
+                  <Carousel
+                    currentIndex={currentImage}
+                    views={imgs.map(x => ({
+                      ...x,
+                      srcset: x.srcSet,
+                      caption: x.title
+                    }))}
+                  />
+                </Modal>
+              ) : null}
+            </ModalGateway>
         </Col>
       </Row>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // <div>
+    //   <Row>
+    //     <Col lg={6}>
+    // <div className="secondParallaxTxt">
+    //   <Row>
+    //     <Col lg={2}>Location</Col>
+    //     <Col lg={10}>53-01 11th street, LIC, NY 11101</Col>
+    //   </Row>
+    //   <hr />
+    //   <Row>
+    //     <Col lg={2}>Year Built</Col>
+    //     <Col lg={10}>1954</Col>
+    //   </Row>
+    //   <hr />
+    //   <Row>
+    //     <Col lg={2}>Office space</Col>
+    //     <Col lg={10}>3,500 - 12,024</Col>
+    //   </Row>
+    //   <hr />
+    //   <Row>
+    //     <Col lg={2}>Floors</Col>
+    //     <Col lg={10}>2</Col>
+    //   </Row>
+    //   <hr />
+    //   <Row>
+    //     <Col lg={2}>Renovations</Col>
+    //     <Col lg={10}>Fully renovated including lobby, windows, facade, elevator, restrooms</Col>
+    //   </Row>
+    //   <hr />
+    //   <Row>
+    //     <Col lg={2}>Column spacing</Col>
+    //     <Col lg={10}>40 foot spacing - Open plan</Col>
+    //   </Row>
+    //   <hr />
+    //   <Row>
+    //     <Col lg={2}>Elevators</Col>
+    //     <Col lg={10}>1 passenger</Col>
+    //   </Row>
+    //   <hr />
+    //   <Row>
+    //     <Col lg={2}>HVAC</Col>
+    //     <Col lg={10}>Tenant controlled</Col>
+    //   </Row>
+    //   <hr />
+    //   <Row>
+    //     <Col lg={2}>Building class</Col>
+    //     <Col lg={10}>Fireproof warehouse</Col>
+    //   </Row>
+    //   <hr />
+    //   <Row>
+    //     <Col lg={2}>Lot Square Footage</Col>
+    //     <Col lg={10}>121,700</Col>
+    //   </Row>
+    //   <hr />
+    //   <Row>
+    //     <Col lg={2}>Security access</Col>
+    //     <Col lg={10}>24/7 Keycard/Camera surveillance</Col>
+    //   </Row>
+    //   <hr />
+    //   <Row>
+    //     <Col lg={2}>Building hours</Col>
+    //     <Col lg={10}>24/7 tenant access</Col>
+    //   </Row>
+    //   <hr />
+    //   <Row>
+    //     <Col lg={2}>Cleaning</Col>
+    //     <Col lg={10}>Common areas</Col>
+    //   </Row>
+    //   <hr />
+    //   <Row>
+    //     <Col lg={2}>Bicycle Storage</Col>
+    //     <Col lg={10}>Bike rack</Col>
+    //   </Row>
+    //   <hr />
+    //   <Row>
+    //     <Col lg={2}>Transportation</Col>
+    //     <Col lg={10}>Subway, Train, NYC Ferry</Col>
+    //   </Row>
+    //   <hr />
+    //   <Row>
+    //     <Col lg={2}>Neighborhood</Col>
+    //     <Col lg={10}>Vibrant restaurants, coffeeshops, outdoors with tremendous views of Manhattan</Col>
+    //   </Row>
+    // </div>
+    //     </Col>
+    //     <Col lg={6}>
+    // <Gallery photos={imgs} onClick={openLightbox} />
+    // <ModalGateway>
+    //   {viewerIsOpen ? (
+    //     <Modal onClose={closeLightbox}>
+    //       <Carousel
+    //         currentIndex={currentImage}
+    //         views={imgs.map(x => ({
+    //           ...x,
+    //           srcset: x.srcSet,
+    //           caption: x.title
+    //         }))}
+    //       />
+    //     </Modal>
+    //   ) : null}
+    // </ModalGateway>
+    //     </Col>
+    //   </Row>
+    // </div>
   )
 }
 
