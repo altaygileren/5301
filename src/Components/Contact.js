@@ -15,7 +15,7 @@ const amountOfTimes = [
 
 const Contact = () => {
   return (
-    <div className="sectionTitle">
+    <div className="">
 
       <Row>
         <Col lg={1} md={1} sm={1} xs={1}>
@@ -29,7 +29,7 @@ const Contact = () => {
           </div>
         </Col>
         <Col lg={11} md={11} sm={11} xs={11}>
-          <Row>
+          <Row className="contactRow">
             <Col lg={6} md={6} sm={10} xs={10}>
               <span className="contactName">
                 <strong>Layla Khoury</strong>
