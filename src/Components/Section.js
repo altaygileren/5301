@@ -84,12 +84,12 @@ class Section extends React.Component {
   render() {
     return (
       <div>
+          <Welcome />
         <div className="moveUp">
           <Hero />
         </div>
         <Youroffice />
         <Element name="test1" className="element" >
-          <Welcome />
         </Element>
         <Element name="test2" className="element">
           <Location />

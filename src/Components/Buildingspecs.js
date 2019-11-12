@@ -69,7 +69,7 @@ function Buildingspecs() {
             <hr />
             <Row>
               <Col lg={2}>Office space</Col>
-              <Col lg={10}>3,500 - 12,024</Col>
+              <Col lg={10}>1,000 - 12,000</Col>
             </Row>
             <hr />
             <Row>
@@ -79,7 +79,7 @@ function Buildingspecs() {
             <hr />
             <Row>
               <Col lg={2}>Renovations</Col>
-              <Col lg={10}>Fully renovated including lobby, windows, facade, elevator, restrooms</Col>
+              <Col lg={10}>Fully renovated including lobby, kitchen, windows, elevator, restrooms</Col>
             </Row>
             <hr />
             <Row>
@@ -109,7 +109,7 @@ function Buildingspecs() {
             <hr />
             <Row>
               <Col lg={2}>Security access</Col>
-              <Col lg={10}>24/7 Keycard/Camera surveillance</Col>
+              <Col lg={10}>24/7 Keycard/Camera surveillance & on-site security guard</Col>
             </Row>
             <hr />
             <Row>
@@ -124,36 +124,36 @@ function Buildingspecs() {
             <hr />
             <Row>
               <Col lg={2}>Bicycle Storage</Col>
-              <Col lg={10}>Bike rack</Col>
+              <Col lg={10}>Bike parking</Col>
             </Row>
             <hr />
             <Row>
               <Col lg={2}>Transportation</Col>
-              <Col lg={10}>Subway, Train, NYC Ferry</Col>
+              <Col lg={10}>Subway, Train, Citi bike, NYC Ferry</Col>
             </Row>
             <hr />
             <Row>
               <Col lg={2}>Neighborhood</Col>
-              <Col lg={10}>Vibrant restaurants, coffeeshops, outdoors with tremendous views of Manhattan</Col>
+              <Col lg={10}>Vibrant restaurants, coffeeshops, waterfront park with tremendous views of Manhattan</Col>
             </Row>
           </div>
         </Col>
         <Col lg={6} md={6} sm={12} xs={12}>
-            <Gallery photos={imgs} onClick={openLightbox} />
-            <ModalGateway>
-              {viewerIsOpen ? (
-                <Modal onClose={closeLightbox}>
-                  <Carousel
-                    currentIndex={currentImage}
-                    views={imgs.map(x => ({
-                      ...x,
-                      srcset: x.srcSet,
-                      caption: x.title
-                    }))}
-                  />
-                </Modal>
-              ) : null}
-            </ModalGateway>
+          <Gallery photos={imgs} onClick={openLightbox} />
+          <ModalGateway>
+            {viewerIsOpen ? (
+              <Modal onClose={closeLightbox}>
+                <Carousel
+                  currentIndex={currentImage}
+                  views={imgs.map(x => ({
+                    ...x,
+                    srcset: x.srcSet,
+                    caption: x.title
+                  }))}
+                />
+              </Modal>
+            ) : null}
+          </ModalGateway>
         </Col>
       </Row>
     </div>
