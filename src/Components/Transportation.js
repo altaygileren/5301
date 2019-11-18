@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import lirrLogo from '../img/lirrLogo.jpeg';
-import directions from '../img/directionsmap.png';
+import addressMap from '../img/addressMap.png';
 import parkingSign from '../img/parkingSign.png';
 import qmtSign from '../img/qmtSign.png';
 import sevenTrainSign from '../img/sevenTrainSign.png';
@@ -16,61 +16,47 @@ const amountOfTimes = [
 const Transportation = () => {
   return (
     <div className="sectionTitle">
-
       <Row>
-        <Col lg={1} md={1} sm={1} xs={1}>
-          <div className="sectionHeader">
-            {/* <p className="transportTxt">TRANSPORTATION</p> */}
-            <div class="rotation-wrapper-outer">
-    <div class="rotation-wrapper-inner">
-      <p className="element-to-rotate">TRANSPORTATION</p>
-    </div>    
-  </div>
-          </div>
-        </Col>
-        <Col lg={11} md={11} sm={11} xs={11}>
-            <div className="transportImgDiv">
-              <img className="directionsMapImg" src={directions} />
-            </div>
-          <Row>
-            <Col lg={2} md={2} sm={2} xs={2}>
-              <img src={parkingSign} />
-              <br />
-              <p>0.0 miles</p>
-              <p>private parking spot</p>
-            </Col>
-            <Col lg={2} md={2} sm={2} xs={2}>
-              <img src={qmtSign} />
-              <br />
-              <p>0.1 miles</p>
-            </Col>
-            <Col lg={2} md={2} sm={2} xs={2}>
-              <img src={sevenTrainSign} />
-              <br />
-              <p>0.3 miles</p>
-              <p>Vernon-Jackson stop</p>
-            </Col>
-            <Col lg={2} md={2} sm={2} xs={2}>
-              <img src={mtaSign} />
-              <br />
-              <p>0.4 miles</p>
-              <p>Hunters Point Avenue</p>
-            </Col>
-            <Col lg={2} md={2} sm={2} xs={2}>
-              <img src={nycFerrySign} />
-              <br />
-              <p>0.5 miles</p>
-              <p>Hunters Point Avenue</p>
-            </Col>
-            <Col lg={2} md={2} sm={2} xs={2}>
-              <img src={citiBikeSign} />
-              <br />
-              <p>0.2 miles</p>
-              <p>Nearest bike location</p>
-            </Col>
-          </Row>
-        </Col>
+        <div className="welcomeTxt secondaryTxt">
+          TRANSPORTATION
+        </div>
       </Row>
+      <div className="transportationOptionsRow">
+        <Row>
+          <img className="directionsMapImg" src={addressMap} />
+        </Row>
+        <Row>
+        <Col lg={2} md={2} sm={3} xs={3}>
+            <img src={parkingSign} />
+            <p className="distanceMiles">0.0 miles</p>
+            <p>Your parking spot</p>
+          </Col>
+          <Col lg={2} md={2} sm={3} xs={3}>
+            <img src={qmtSign} />
+            <p className="distanceMiles">0.1 miles</p>
+          </Col>
+          <Col lg={2} md={2} sm={3} xs={3}>
+            <img src={citiBikeSign} />
+            <p className="distanceMiles">0.2 miles</p>
+            <p>Nearest Citibike location</p>
+          </Col>
+          <Col lg={2} md={2} sm={3} xs={3}>
+            <img src={sevenTrainSign} />
+            <p className="distanceMiles">0.3 miles</p>
+            <p>Vernon-Jackson stop</p>
+          </Col>
+          <Col lg={2} md={2} sm={3} xs={3}>
+            <img src={mtaSign} />
+            <p className="distanceMiles">0.4 miles</p>
+            <p>Hunters Point South & Long Island City</p>
+          </Col>
+          <Col lg={2} md={2} sm={2} xs={2}>
+            <img src={nycFerrySign} />
+            <p className="distanceMiles">0.5 miles</p>
+            <p>Hunters Point Avenue</p>
+          </Col>
+        </Row>
+      </div>
     </div>
   )
 }

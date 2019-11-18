@@ -15,7 +15,7 @@ body {
   margin-right: 0;
 }
 .contactRow {
-  padding-top: 15rem;
+  /* padding-top: 15rem; */
 }
 .divTitle {
   font-family: 'Saira Stencil One', cursive;
@@ -83,11 +83,13 @@ body {
   position: sticky;
   top: 0;
   z-index: 1;
-  background-color: rgba(93, 211, 225, 0.8);
+  /* background-color: rgba(93, 211, 225, 0.8); */
+  background-color: rgba(0, 0, 0, 0.7);
   color: white;
   font-family: 'Prompt', sans-serif;
   font-weight: 200;
   font-size: 1.2rem;
+  text-align: center;
 }
 .stickyTop a:hover {
   cursor: pointer;
@@ -99,6 +101,7 @@ body {
   font-family: 'Saira Stencil One', cursive;
   font-size: 3.66rem;
   color: #323232;
+  text-align: left;
 }
 
 .photoGalleryDiv {
@@ -142,9 +145,6 @@ body {
   width: 100vw;
   height: 100vh;
 }
-.directLinks a {
-  color: red;
-}
 .test1 {
   color: green;
 }
@@ -167,10 +167,11 @@ body {
   color: white;
 }
 .rowLinks {
-  font-size: 2rem;
+  font-size: 1.0rem;
   font-weight: 800;
   width: 100%;
   text-align: left;
+  color: rgb(121, 242, 255);
 }
 .sevenTrain {
   background-color:	#9400D3;
@@ -237,9 +238,9 @@ body {
 }
 
 .sectionTitle {
-  padding-top: 5rem;
+  /* padding-top: 5rem; */
+  margin-top: 3rem;
   text-align: left;
-  height: 150vh;
 }
 .headerBrand {
   color: white;
@@ -312,10 +313,16 @@ body {
   white-space: nowrap;
 }
 
+.secondaryTxt {
+  font-size: 2rem;
+}
+.transportationOptionsRow {
+  text-align: center;
+}
 
-
-
-
+.distanceMiles {
+  font-weight: bold;
+}
 
 
 
@@ -334,6 +341,7 @@ body {
   }
   .stickyTop {
     font-size: 0.92rem;
+    text-align: center;
   }
   .contactDiv {
     height: 60vh;
@@ -355,7 +363,7 @@ body {
   }
   .directLinks a {
     color: white;
-    font-size: 2rem;
+    font-size: 0.80rem;
   }
   .contactName {
     font-size: 1rem;
@@ -374,6 +382,8 @@ body {
 .col-3 {
   padding: 0;
 }
+
+
 /* @media only screen and (min-width: 480px) and (max-width: 767px){ 
   .stickyTop a {
     font-size: 1rem;

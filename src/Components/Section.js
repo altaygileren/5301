@@ -106,9 +106,9 @@ class Section extends React.Component {
         </Element>
         {/* <Parallaximg info={secondParallax} /> */}
         <Buildingspecs />
-        <Element name="test6" className="element">
+        {/* <Element name="test6" className="element">
           <Contact />
-        </Element>
+        </Element> */}
       </div>
     );
   }

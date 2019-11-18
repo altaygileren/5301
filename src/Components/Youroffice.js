@@ -46,33 +46,28 @@ export default function Youroffice() {
   };
   return (
     <div className="sectionTitle">
-
       <Row>
-        <Col lg={1} md={1} sm={1} xs={1}>
-          <div className="sectionHeader">
-            <p>YOUR OFFICE</p>
-          </div>
-        </Col>
-        <Col lg={11} md={11} sm={11} xs={11}>
-          <Row>
-            <Gallery photos={imgs} onClick={openLightbox} />
-            <ModalGateway>
-              {viewerIsOpen ? (
-                <Modal onClose={closeLightbox}>
-                  <Carousel
-                    currentIndex={currentImage}
-                    views={imgs.map(x => ({
-                      ...x,
-                      srcset: x.srcSet,
-                      caption: x.title
-                    }))}
-                  />
-                </Modal>
-              ) : null}
-            </ModalGateway>
-          </Row>
-        </Col>
+        <div className="welcomeTxt secondaryTxt">
+          YOUR NEW HOME
+        </div>
       </Row>
+      <div>
+        <Gallery photos={imgs} onClick={openLightbox} />
+        <ModalGateway>
+          {viewerIsOpen ? (
+            <Modal onClose={closeLightbox}>
+              <Carousel
+                currentIndex={currentImage}
+                views={imgs.map(x => ({
+                  ...x,
+                  srcset: x.srcSet,
+                  caption: x.title
+                }))}
+              />
+            </Modal>
+          ) : null}
+        </ModalGateway>
+      </div>
     </div>
   );
 }
