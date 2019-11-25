@@ -258,6 +258,9 @@ body {
   margin: 0;
   font-weight: bold;
 }
+.headerBrand b {
+  font-family: 'Abril Fatface';
+}
 .locationImg {
   width: 100%;
 }
