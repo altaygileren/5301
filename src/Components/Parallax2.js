@@ -12,7 +12,7 @@ const Parallax2 = (props) => {
       >
         <div className="parallaxDiv">
           <div className="parallaxTxt">
-            <p className="parallaxTxt">Building specifications</p>
+            <p className="parallaxTxt">Building specs</p>
           </div>
           <Container>
             <div className="secondParallaxTxt">

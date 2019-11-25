@@ -14,9 +14,6 @@ body {
   margin-left: 0;
   margin-right: 0;
 }
-.contactRow {
-  /* padding-top: 15rem; */
-}
 .divTitle {
   font-family: 'Saira Stencil One', cursive;
   font-size: 4rem;
@@ -24,16 +21,25 @@ body {
   color: #323232;
 }
 .welcomeDiv {
-  /* top: -10rem; */
   margin-top: 5rem;
   text-align: left;
 }
 .heroTxt {
-  font-family: 'Saira Stencil One', cursive;
-  font-size: 5rem;
+  /* font-family: 'Saira Stencil One', cursive; */
+  font-family: 'Abril Fatface', cursive;
+  font-size: 8rem;
+}
+.secondaryHeroTxt {
+  /* font-family: 'Saira Stencil One', cursive; */
+  font-family: 'Abril Fatface', cursive;
+  font-size: 3rem;
+  margin-bottom: 2rem;
 }
 .heroTxt p {
   width: 100%;
+}
+.heroSubTxt {
+  font-family: 'Prompt', sans-serif;
 }
 .moveDown {
   padding-top: 1.2rem;
@@ -48,7 +54,7 @@ body {
   margin-top: 4rem;
 }
 .heroImgDiv {
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0,0,0,0.7);
 }
 .logo {
   width: 60%;
@@ -69,9 +75,10 @@ body {
 }
 .heroDiv {
   position: absolute;
-  top: 50%;
+  top: 40%;
   color: white;
   left: 50%;
+  width: 95%;
   transform: translate(-50%,-50%);
 }
 .parallaxTxt {
@@ -84,7 +91,7 @@ body {
   top: 0;
   z-index: 1;
   /* background-color: rgba(93, 211, 225, 0.8); */
-  background-color: rgba(0, 0, 0, 0.7);
+  /* background-color: rgba(0, 0, 0, 0.7); */
   color: white;
   font-family: 'Prompt', sans-serif;
   font-weight: 200;
@@ -115,7 +122,6 @@ body {
 .contactDiv {
   color: #323232;
   text-align: left;
-  height: 0vh;
 }
 .contactName {
   color: #323232;
@@ -171,7 +177,7 @@ body {
   font-weight: 800;
   width: 100%;
   text-align: left;
-  color: rgb(121, 242, 255);
+  /* color: rgb(121, 242, 255); */
 }
 .sevenTrain {
   background-color:	#9400D3;
@@ -241,10 +247,14 @@ body {
   /* padding-top: 5rem; */
   margin-top: 3rem;
   text-align: left;
+  padding-top: 5rem;
 }
 .headerBrand {
   color: white;
   font-size: 1.3rem;
+  padding:0;
+  margin: 0;
+  font-weight: bold;
 }
 .locationImg {
   width: 100%;
@@ -252,33 +262,6 @@ body {
 .contactLink a {
   color: black;
   font-family: 'Prompt';
-}
-
-
-.sectionHeader {
-  margin-top: 30rem;
-  font-size: 3rem;
-  margin-bottom: 10rem;
-  width: 100%;
-  top: 0;
-  transform: rotate(-90deg);
-  font-family: 'Saira Stencil One', cursive;
-  /* Legacy vendor prefixes that you probably don't need... */
-  
-  /* Safari */
-  -webkit-transform: rotate(-90deg);
-  
-  /* Firefox */
-  -moz-transform: rotate(-90deg);
-  
-  /* IE */
-  -ms-transform: rotate(-90deg);
-  
-  /* Opera */
-  -o-transform: rotate(-90deg);
-}
-.sectionHeader p {
-  width: 500%;
 }
 
 /* p {
@@ -308,26 +291,88 @@ body {
      width of your element is small enough that the text wraps: */
   white-space: nowrap;
 }
-
+.topAdd {
+  font-size: 0.3rem;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+.headerBrand hr {
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+.transportationImgDiv {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
 .element-to-rotate {
   white-space: nowrap;
 }
+.headerBrand span {
+  font-size: 0.9rem;
+}
 
 .secondaryTxt {
-  font-size: 2rem;
+  font-size: 3rem;
+  margin-left: 2rem;
+  font-family: 'Abril Fatface', cursive;
 }
 .transportationOptionsRow {
   text-align: center;
+  font-family: 'Prompt';
+}
+.transportationOptionsRow p {
+  margin: 0;
+  padding: 0;
 }
 
 .distanceMiles {
-  font-weight: bold;
+  /* font-weight: bold; */
+  /* color: #0054C0; */
+  font-size: 1.2rem;
+  font-family: 'Abril Fatface', cursive;
 }
-
+.footerTxt {
+  color: rgb(72, 72, 72);
+  font-size: 2.5rem;
+  font-family: 'Abril Fatface', cursive;
+}
+.footerDiv {
+  margin-top: 5rem;
+  background-color: black;
+}
+.scrolled {
+  background-color: rgba(46, 149, 193, 0.95);
+  box-shadow: 0 0.03rem 0.5rem rgba(0, 0, 0, 0.50), 0 0 0 rgba(0, 0, 0, 0.8);
+  transition: 0.4s;
+}
+/* .scrolled {
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0.03rem 0.5rem rgba(0, 0, 0, 0.50), 0 0 0 rgba(0, 0, 0, 0.8);
+  transition: 0.4s;
+} */
 
 
 /* Media query */
 @media only screen and (min-width: 320px) and (max-width: 479px){ 
+  .parallaxTxt {
+    font-size: 3rem;
+  }
+  .heroDiv {
+    position: absolute;
+    top: 55%;
+    color: white;
+    left: 50%;
+    width: 95%;
+    transform: translate(-50%,-50%);
+  }
+  .heroSubTxt {
+    font-size: 0.8rem;
+  }
+  .secondaryHeroTxt {
+    font-size: 1rem;
+  }
   .rowLinks a {
     font-size: 0.7rem;
     width: 100%;
@@ -356,6 +401,7 @@ body {
   .headerBrand {
     font-size: 0.92rem;
     display: none;
+    /* top: 3rem; */
   }
   .directLinks {
     font-size: 0.80rem;

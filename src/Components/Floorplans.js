@@ -73,7 +73,7 @@ const Floorplans = () => {
     <div className="sectionTitle">
       <Row>
         <div className="welcomeTxt secondaryTxt">
-          FLOOR PLANS
+          Floor plans
     </div>
       </Row>
       <Row>

@@ -1,9 +1,9 @@
 import React, { useState, useCallback } from "react";
 import { Row, Col } from 'react-bootstrap';
-import yourOfficeImg1 from '../img/yourOfficeImg1.png';
-import yourOfficeImg2 from '../img/yourOfficeImg2.png';
-import yourOfficeImg3 from '../img/yourOfficeImg3.png';
-import yourOfficeImg4 from '../img/yourOfficeImg4.png';
+import yourOfficeImg1 from '../img/1--2.jpg';
+import yourOfficeImg2 from '../img/1--5.jpg';
+import yourOfficeImg3 from '../img/1--8.jpg';
+import yourOfficeImg4 from '../img/1--11.jpg';
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 const imgs = [
@@ -48,7 +48,7 @@ export default function Youroffice() {
     <div className="sectionTitle">
       <Row>
         <div className="welcomeTxt secondaryTxt">
-          YOUR NEW HOME
+          Your new home
         </div>
       </Row>
       <div>

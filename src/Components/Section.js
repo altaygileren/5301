@@ -10,6 +10,7 @@ import Location from './Location';
 import Youroffice from './Youroffice';
 import Transportation from './Transportation';
 import Parallaximg from './Parallaximg';
+import Footer from './Footer';
 import parallaximg2 from '../img/parallaximg2.png';
 import parallaximg3 from '../img/parallaximg3.png';
 import Parallax2 from './Parallax2';
@@ -17,7 +18,7 @@ import Buildingspecs from './Buildingspecs';
 
 const firstParallax = {
   img: `${parallaximg2}`,
-  txt: 'Text will be here'
+  txt: 'Your turn key office awaits'
 }
 const secondParallax = {
   img: `${parallaximg3}`,
@@ -84,31 +85,29 @@ class Section extends React.Component {
   render() {
     return (
       <div>
-          <Welcome />
+        <Welcome />
         <div className="moveUp">
           <Hero />
         </div>
-        <Youroffice />
-        <Element name="test1" className="element" >
-        </Element>
-        <Element name="test2" className="element">
-          <Location />
+        <Element name="test2" className="element" >
+          <Youroffice />
         </Element>
         <Element name="test3" className="element">
           <Transportation />
         </Element>
-        <Element name="test4" className="element">
-          <Photogallery />
-        </Element>
-        <Parallaximg info={firstParallax} />
+        <Photogallery />
         <Element name="test5" className="element">
           <Floorplans />
         </Element>
+        <Parallaximg info={firstParallax} />
         {/* <Parallaximg info={secondParallax} /> */}
-        <Buildingspecs />
-        {/* <Element name="test6" className="element">
+        <Element name="test4" className="element">
+          <Buildingspecs />
+        </Element>
+        <Element className="element">
           <Contact />
-        </Element> */}
+        </Element>
+        <Footer />
       </div>
     );
   }

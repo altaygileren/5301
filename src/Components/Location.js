@@ -59,7 +59,7 @@ export default function Location() {
     <div className="sectionTitle">
       <Row>
         <div className="welcomeTxt secondaryTxt">
-          LOCATION, LOCATION, LOCATION
+          Location
         </div>
       </Row>
       <div>

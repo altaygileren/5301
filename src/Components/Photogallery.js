@@ -2,11 +2,11 @@
 // import Gallery from 'react-grid-gallery';
 import React, { useState, useCallback } from "react";
 import { render } from "react-dom";
-import kitchen from '../img/kitchen.jpg';
-import floor1 from '../img/floor1.jpg'
-import floor2 from '../img/floor2.jpg'
-import floor3 from '../img/floor3.jpg'
-import floor4 from '../img/floor4.jpg'
+import kitchen from '../img/1--11.jpg';
+import floor1 from '../img/1--15.jpg'
+import floor2 from '../img/1--14.jpg'
+import floor3 from '../img/1--13.jpg'
+import floor4 from '../img/1--9.jpg'
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 const imgs = [
