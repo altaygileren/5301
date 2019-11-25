@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/5301/static/css/main.b6e10cd9.chunk.css",
-    "main.js": "/5301/static/js/main.a83b65b3.chunk.js",
-    "main.js.map": "/5301/static/js/main.a83b65b3.chunk.js.map",
+    "main.css": "/5301/static/css/main.4997ab37.chunk.css",
+    "main.js": "/5301/static/js/main.590b262e.chunk.js",
+    "main.js.map": "/5301/static/js/main.590b262e.chunk.js.map",
     "runtime-main.js": "/5301/static/js/runtime-main.26c760d4.js",
     "runtime-main.js.map": "/5301/static/js/runtime-main.26c760d4.js.map",
-    "static/js/2.022955c3.chunk.js": "/5301/static/js/2.022955c3.chunk.js",
-    "static/js/2.022955c3.chunk.js.map": "/5301/static/js/2.022955c3.chunk.js.map",
+    "static/js/2.4f81fc83.chunk.js": "/5301/static/js/2.4f81fc83.chunk.js",
+    "static/js/2.4f81fc83.chunk.js.map": "/5301/static/js/2.4f81fc83.chunk.js.map",
     "index.html": "/5301/index.html",
-    "precache-manifest.f12ef79fd6953ad08339796fb7b1dbd2.js": "/5301/precache-manifest.f12ef79fd6953ad08339796fb7b1dbd2.js",
+    "precache-manifest.7fe9a24a81471170ccb4a981dc407107.js": "/5301/precache-manifest.7fe9a24a81471170ccb4a981dc407107.js",
     "service-worker.js": "/5301/service-worker.js",
-    "static/css/main.b6e10cd9.chunk.css.map": "/5301/static/css/main.b6e10cd9.chunk.css.map",
+    "static/css/main.4997ab37.chunk.css.map": "/5301/static/css/main.4997ab37.chunk.css.map",
+    "static/media/1--11.jpg": "/5301/static/media/1--11.d3f1aa0a.jpg",
+    "static/media/1--13.jpg": "/5301/static/media/1--13.867506e0.jpg",
+    "static/media/1--14.jpg": "/5301/static/media/1--14.e3d21bc9.jpg",
+    "static/media/1--15.jpg": "/5301/static/media/1--15.aa2d052e.jpg",
+    "static/media/1--2.jpg": "/5301/static/media/1--2.421d85a1.jpg",
+    "static/media/1--5.jpg": "/5301/static/media/1--5.0f990af4.jpg",
+    "static/media/1--8.jpg": "/5301/static/media/1--8.98cd9a70.jpg",
+    "static/media/1--9.jpg": "/5301/static/media/1--9.d9a1f4aa.jpg",
     "static/media/addressMap.png": "/5301/static/media/addressMap.078d7806.png",
     "static/media/bridgeHouseLogo.png": "/5301/static/media/bridgeHouseLogo.a7c4811f.png",
     "static/media/directionsmap.png": "/5301/static/media/directionsmap.40ccaa83.png",
@@ -22,19 +30,15 @@
     "static/media/heroimg.png": "/5301/static/media/heroimg.a3858106.png",
     "static/media/kitchen.jpg": "/5301/static/media/kitchen.44ddcac0.jpg",
     "static/media/location.png": "/5301/static/media/location.02001d42.png",
-    "static/media/newHeroImg.png": "/5301/static/media/newHeroImg.c726f1d1.png",
+    "static/media/newphoto.jpg": "/5301/static/media/newphoto.f936d7cf.jpg",
     "static/media/parallaximg2.png": "/5301/static/media/parallaximg2.b53e5e12.png",
     "static/media/parallaximg3.png": "/5301/static/media/parallaximg3.ad287a59.png",
-    "static/media/skyView.png": "/5301/static/media/skyView.7ab589da.png",
-    "static/media/yourOfficeImg1.png": "/5301/static/media/yourOfficeImg1.55970e80.png",
-    "static/media/yourOfficeImg2.png": "/5301/static/media/yourOfficeImg2.a6cbf5a7.png",
-    "static/media/yourOfficeImg3.png": "/5301/static/media/yourOfficeImg3.fe2bdb4f.png",
-    "static/media/yourOfficeImg4.png": "/5301/static/media/yourOfficeImg4.0af74fd9.png"
+    "static/media/skyView.png": "/5301/static/media/skyView.7ab589da.png"
   },
   "entrypoints": [
     "static/js/runtime-main.26c760d4.js",
-    "static/js/2.022955c3.chunk.js",
-    "static/css/main.b6e10cd9.chunk.css",
-    "static/js/main.a83b65b3.chunk.js"
+    "static/js/2.4f81fc83.chunk.js",
+    "static/css/main.4997ab37.chunk.css",
+    "static/js/main.590b262e.chunk.js"
   ]
 }
