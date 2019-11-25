@@ -359,6 +359,9 @@ body {
   .parallaxTxt {
     font-size: 3rem;
   }
+  .floorPlansStyle {
+    width: 100%;
+  }
   .heroDiv {
     position: absolute;
     top: 55%;
