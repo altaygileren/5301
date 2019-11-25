@@ -22,11 +22,9 @@ const Transportation = () => {
         </div>
         </Row>
         <div className="transportationOptionsRow">
-      <Container>
           <Row className="transportationImgDiv">
             <img className="directionsMapImg" src={addressMap} />
           </Row>
-    </Container>
           <Row>
             <Col lg={4} md={4} sm={4} xs={4}>
               <img src={parkingSign} />

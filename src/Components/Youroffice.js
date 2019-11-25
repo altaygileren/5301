@@ -1,5 +1,10 @@
 import React, { useState, useCallback } from "react";
 import { Container, Row, Col } from 'react-bootstrap';
+import kitchen from '../img/1--11.jpg';
+import floor1 from '../img/1--15.jpg'
+import floor2 from '../img/1--14.jpg'
+import floor3 from '../img/1--13.jpg'
+import floor4 from '../img/1--9.jpg'
 import yourOfficeImg1 from '../img/1--2.jpg';
 import yourOfficeImg2 from '../img/1--5.jpg';
 import yourOfficeImg3 from '../img/1--8.jpg';
@@ -8,6 +13,31 @@ import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 const imgs = [
 
+  {
+    src: `${kitchen}`,
+    width: 3,
+    height: 1
+  },
+  {
+    src: `${floor1}`,
+    width: 2,
+    height: 1
+  },
+  {
+    src: `${floor2}`,
+    width: 2,
+    height: 1
+  },
+  {
+    src: `${floor3}`,
+    width: 3,
+    height: 1
+  },
+  {
+    src: `${floor4}`,
+    width: 2,
+    height: 1
+  },
   {
     src: `${yourOfficeImg1}`,
     width: 2,
@@ -51,12 +81,10 @@ export default function Youroffice() {
           Your new home
         </div>
       </Row>
-      <Container>
-        <div>
+        <div className="transportationImgDiv">
           <p className="heroSubTxt">Bridge House L.I.C offers 24,000 square feet of newly renovated workspace married to a once industrial building in Long Island City.  Open layouts covered in natural light are paired with a host of swift commute options, making Bridge House LIC the ideal alternative to an overcrowded Manhattan.  Nestled in a neighborhood oozing with culturally diverse restaurants, gourmet cafes, and an unrivaled nearby waterfront park, it's hard to imagine a better home for you and your work family.</p>
         </div>
-      </Container>
-      {/* <div>
+      <div>
         <Gallery photos={imgs} onClick={openLightbox} />
         <ModalGateway>
           {viewerIsOpen ? (
@@ -72,7 +100,7 @@ export default function Youroffice() {
             </Modal>
           ) : null}
         </ModalGateway>
-      </div> */}
+      </div>
     </div>
   );
 }

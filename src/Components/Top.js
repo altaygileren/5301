@@ -96,7 +96,7 @@ class Section extends React.Component {
           <p className="headerBrand">
             <b>BridgeHouse LIC</b>
             <hr />
-            <span>53-01 11th street LIC, NY</span>
+            <span>53-01 11th Street LIC, NY</span>
           </p>
         </Col>
         <Col lg={9}>

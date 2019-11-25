@@ -19,6 +19,7 @@ export default class Hero extends Component {
             <div className="heroDiv">
               <p className="heroTxt">BridgeHouse L.I.C</p>
               <p className="secondaryHeroTxt">In Long Island City - The Gateway To Success</p>
+              {/* <p className="secondaryHeroTxt">In Long Island City - The Gateway To Success</p> */}
             </div>
           </div>
         </Parallax>

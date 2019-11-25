@@ -40,6 +40,7 @@ body {
 }
 .heroSubTxt {
   font-family: 'Prompt', sans-serif;
+  font-size: 1.2rem;
 }
 .moveDown {
   padding-top: 1.2rem;
@@ -308,8 +309,10 @@ body {
   background-color: white;
 }
 .transportationImgDiv {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin: 1.5rem 2rem;
+  /* margin-top: 1.5rem;
+  margin-right
+  margin-bottom: 1.5rem; */
 }
 .element-to-rotate {
   white-space: nowrap;
@@ -341,8 +344,9 @@ body {
 }
 .footerTxt {
   color: rgb(72, 72, 72);
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-family: 'Abril Fatface', cursive;
+  text-align: right;
 }
 .footerDiv {
   margin-top: 5rem;

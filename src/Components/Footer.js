@@ -13,6 +13,7 @@ const Footer = () => {
         <Col lg={4}>
           <div className="footerTxt">
             53-01 11th Street
+            <br />
             Long Island City, NY
     </div>
         </Col>

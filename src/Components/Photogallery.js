@@ -16,47 +16,37 @@ import Carousel, { Modal, ModalGateway } from "react-images";
 const imgs = [
 
   {
-    src: `${kitchen}`,
-    width: 3,
-    height: 1
-  },
-  {
-    src: `${floor1}`,
+    src: `https://c8.alamy.com/comp/PAJ293/sweetleaf-coffee-roasters-10-93-jackson-ave-long-island-city-ny-PAJ293.jpg`,
     width: 2,
     height: 1
   },
   {
-    src: `${floor2}`,
+    src: `https://c8.alamy.com/comp/MKK4M1/rockaway-brewing-company-lic-tap-room-46-01-5th-st-long-island-city-ny-MKK4M1.jpg`,
     width: 2,
     height: 1
   },
   {
-    src: `${floor3}`,
-    width: 3,
-    height: 1
-  },
-  {
-    src: `${floor4}`,
+    src: `https://3b54d614b0ba3daee3e7-22cdaf81fa4f84a86ca17cc2abb428ed.ssl.cf1.rackcdn.com/DL_PepsiCola.jpg`,
     width: 2,
     height: 1
   },
   {
-    src: `${yourOfficeImg1}`,
+    src: `https://c8.alamy.com/comp/R209CY/no-7-subway-train-long-island-city-queens-queens-plaza-new-york-city-R209CY.jpg`,
     width: 2,
     height: 1
   },
   {
-    src: `${yourOfficeImg2}`,
+    src: `https://qns.com/wp-content/uploads/2019/03/LIC-Gantry-1.jpg`,
     width: 2,
     height: 1
   },
   {
-    src: `${yourOfficeImg3}`,
+    src: `https://media-cdn.tripadvisor.com/media/photo-s/03/98/88/ee/bricktown-bagel-cafe.jpg`,
     width: 2,
     height: 1
   },
   {
-    src: `${yourOfficeImg4}`,
+    src: `https://qns.com/wp-content/uploads/2018/09/ferries_2018_08_31_q01_z.jpg`,
     width: 2,
     height: 1
   }
