@@ -175,7 +175,6 @@ body {
   color: white;
 }
 .rowLinks {
-  font-size: 1.0rem;
   font-weight: 800;
   width: 100%;
   text-align: left;
@@ -373,6 +372,7 @@ body {
   .floorPlansStyle {
     width: 100%;
   }
+  
   .heroDiv {
     position: absolute;
     top: 55%;
@@ -395,9 +395,10 @@ body {
   }
   .rowLinks {
     margin-top: 1rem;
+    margin-left: 0;
   }
   .heroTxt {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .heroTxt p {
     text-align: center;
@@ -424,9 +425,10 @@ body {
   .directLinks {
     font-size: 0.80rem;
     padding: 0;
+    color: red;
+    margin-right: 1rem;
   }
   .directLinks a {
-    color: white;
     font-size: 0.80rem;
   }
   .contactName {

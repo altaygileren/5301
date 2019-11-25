@@ -112,7 +112,7 @@ class Section extends React.Component {
                 <Link activeClass="active" className="test5 directLinks" to="test5" spy={true} smooth={true} duration={500}>Floor plans</Link>
               </Col>
               <Col>
-                <Link activeClass="active" className="test4 directLinks" to="test4" spy={true} smooth={true} duration={500}>Specifications</Link>
+                <Link activeClass="active" className="test4 directLinks" to="test4" spy={true} smooth={true} duration={500}>Specs</Link>
               </Col>
               <Col>
                 <Link activeClass="active" className="test6 directLinks" to="test6" spy={true} smooth={true} duration={500} >Contact</Link>
