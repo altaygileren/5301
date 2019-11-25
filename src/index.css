@@ -308,7 +308,7 @@ body {
   background-color: white;
 }
 .transportationImgDiv {
-  margin: 1.5rem 2rem;
+  margin: 1.5rem 3rem;
   /* margin-top: 1.5rem;
   margin-right
   margin-bottom: 1.5rem; */
@@ -343,13 +343,19 @@ body {
 }
 .footerTxt {
   color: rgb(72, 72, 72);
-  font-size: 2rem;
-  font-family: 'Abril Fatface', cursive;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Prompt';
   text-align: right;
+  position:absolute;
+  top:50%;
+  left: 30%;
+  transform:translateY(-50%);
 }
 .footerDiv {
   margin-top: 5rem;
   background-color: black;
+  position: relative;
 }
 .scrolled {
   /* background-color: rgba(46, 149, 193, 0.95); */

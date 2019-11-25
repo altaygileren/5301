@@ -10,9 +10,9 @@ const Floorplans = () => {
           Floor plans
     </div>
       </Row>
-      <Row>
+      <div className="transportationImgDiv">
         <img className="floorPlansStyle" src={floorplan} />
-      </Row>
+      </div>
     </div>
   )
 }
