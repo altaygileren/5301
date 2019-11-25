@@ -11,7 +11,10 @@ const Footer = () => {
         </Col>
         <Col lg={4}></Col>
         <Col lg={4}>
-          <div className="footerTxt">BridgeHouseL.I.C</div>
+          <div className="footerTxt">
+            53-01 11th Street
+            Long Island City, NY
+    </div>
         </Col>
       </Row>
     </div>

@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from "react";
-import { Row, Col } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import yourOfficeImg1 from '../img/1--2.jpg';
 import yourOfficeImg2 from '../img/1--5.jpg';
 import yourOfficeImg3 from '../img/1--8.jpg';
@@ -51,7 +51,12 @@ export default function Youroffice() {
           Your new home
         </div>
       </Row>
-      <div>
+      <Container>
+        <div>
+          <p className="heroSubTxt">Bridge House L.I.C offers 24,000 square feet of newly renovated workspace married to a once industrial building in Long Island City.  Open layouts covered in natural light are paired with a host of swift commute options, making Bridge House LIC the ideal alternative to an overcrowded Manhattan.  Nestled in a neighborhood oozing with culturally diverse restaurants, gourmet cafes, and an unrivaled nearby waterfront park, it's hard to imagine a better home for you and your work family.</p>
+        </div>
+      </Container>
+      {/* <div>
         <Gallery photos={imgs} onClick={openLightbox} />
         <ModalGateway>
           {viewerIsOpen ? (
@@ -67,7 +72,7 @@ export default function Youroffice() {
             </Modal>
           ) : null}
         </ModalGateway>
-      </div>
+      </div> */}
     </div>
   );
 }

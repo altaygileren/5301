@@ -94,7 +94,7 @@ class Section extends React.Component {
       <Navbar fixed="top" className={`stickyTop ${this.state.activeClass}`} expand="lg">
         <Col lg={3} xs={12}>
           <p className="headerBrand">
-            <b>Bridge House LIC</b>
+            <b>BridgeHouse LIC</b>
             <hr />
             <span>53-01 11th street LIC, NY</span>
           </p>
@@ -102,21 +102,21 @@ class Section extends React.Component {
         <Col lg={9}>
           <Nav className="mr-auto">
             <Row className="rowLinks">
-              <Col lg={3} md={3} sm={3} xs={3}>
+              <Col>
                 <Link activeClass="active" className="test2 directLinks" to="test2" spy={true} smooth={true} duration={500}>Building</Link>
               </Col>
-              <Col lg={3} md={3} sm={3} xs={3}>
+              <Col>
                 <Link activeClass="active" className="test3 directLinks" to="test3" spy={true} smooth={true} duration={500}>Location</Link>
               </Col>
-              <Col lg={3} md={3} sm={3} xs={3}>
+              <Col>
                 <Link activeClass="active" className="test5 directLinks" to="test5" spy={true} smooth={true} duration={500}>Floor plans</Link>
               </Col>
-              <Col lg={3} md={3} sm={3} xs={3}>
+              <Col>
                 <Link activeClass="active" className="test4 directLinks" to="test4" spy={true} smooth={true} duration={500}>Specifications</Link>
               </Col>
-              {/* <Col lg={2} md={2} sm={3} xs={3}>
+              <Col>
                 <Link activeClass="active" className="test6 directLinks" to="test6" spy={true} smooth={true} duration={500} >Contact</Link>
-              </Col> */}
+              </Col>
             </Row>
           </Nav>
         </Col>

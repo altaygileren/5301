@@ -99,12 +99,12 @@ class Section extends React.Component {
         <Element name="test5" className="element">
           <Floorplans />
         </Element>
-        <Parallaximg info={firstParallax} />
         {/* <Parallaximg info={secondParallax} /> */}
         <Element name="test4" className="element">
           <Buildingspecs />
         </Element>
-        <Element className="element">
+        <Parallaximg info={firstParallax} />
+        <Element name="test6" className="element">
           <Contact />
         </Element>
         <Footer />
