@@ -26,37 +26,39 @@ const Transportation = () => {
           <div className="transportationImgDiv">
             <img className="directionsMapImg" src={mapLocation} />
           </div>
+          <div className="distanceDiv">
         <Row>
-          <Col lg={4} md={4} sm={4} xs={4}>
+          <Col className="distanceCol" lg={4} md={4} sm={4} xs={4}>
             <img src={parkingSign} />
             <p className="distanceMiles">0.0 miles</p>
             <p>Your parking spot</p>
           </Col>
-          <Col lg={4} md={4} sm={4} xs={4}>
+          <Col className="distanceCol" lg={4} md={4} sm={4} xs={4}>
             <img src={qmtSign} />
             <p className="distanceMiles">0.1 miles</p>
           </Col>
-          <Col lg={4} md={4} sm={4} xs={4}>
+          <Col className="distanceCol" lg={4} md={4} sm={4} xs={4}>
             <img src={citiBikeSign} />
             <p className="distanceMiles">0.2 miles</p>
             <p>Nearest Citibike location</p>
           </Col>
-          <Col lg={4} md={4} sm={4} xs={4}>
+          <Col className="distanceCol" lg={4} md={4} sm={4} xs={4}>
             <img src={sevenTrainSign} />
             <p className="distanceMiles">0.3 miles</p>
             <p>Vernon-Jackson stop</p>
           </Col>
-          <Col lg={4} md={4} sm={4} xs={4}>
+          <Col className="distanceCol" lg={4} md={4} sm={4} xs={4}>
             <img src={mtaSign} />
             <p className="distanceMiles">0.4 miles</p>
             <p>Hunters Point South & Long Island City</p>
           </Col>
-          <Col lg={4} md={4} sm={4} xs={4}>
+          <Col className="distanceCol" lg={4} md={4} sm={4} xs={4}>
             <img src={nycFerrySign} />
             <p className="distanceMiles">0.5 miles</p>
             <p>Hunters Point Avenue</p>
           </Col>
         </Row>
+        </div>
       </div>
     </div>
   )

@@ -14,6 +14,12 @@ body {
   margin-left: 0;
   margin-right: 0;
 }
+.distanceDiv {
+  margin: 4rem 0;
+}
+.distanceCol {
+  margin-bottom: 2rem;
+}
 .divTitle {
   font-family: 'Saira Stencil One', cursive;
   font-size: 4rem;
@@ -338,7 +344,7 @@ body {
 .distanceMiles {
   /* font-weight: bold; */
   /* color: #0054C0; */
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   font-family: 'Abril Fatface', cursive;
 }
 .footerTxt {
