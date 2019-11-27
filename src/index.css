@@ -354,10 +354,12 @@ body {
   font-weight: bold;
   font-family: 'Prompt';
   text-align: right;
+  padding-top: 2rem;
 }
 .footerDiv {
   margin-top: 5rem;
   background-color: black;
+  padding: 2rem 0;
 }
 .scrolled {
   /* background-color: rgba(46, 149, 193, 0.95); */
