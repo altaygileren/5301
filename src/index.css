@@ -65,6 +65,7 @@ body {
 }
 .logo {
   width: 60%;
+  filter: brightness(0) invert(1);
 }
 .parallaxDiv {
   background-color: rgba(0,0,0,0.6);
@@ -265,7 +266,7 @@ body {
   font-weight: bold;
 }
 .headerBrand b {
-  font-family: 'Abril Fatface';
+  /* font-family: 'Abril Fatface'; */
 }
 .locationImg {
   width: 100%;
@@ -353,15 +354,10 @@ body {
   font-weight: bold;
   font-family: 'Prompt';
   text-align: right;
-  position:absolute;
-  top:50%;
-  left: 30%;
-  transform:translateY(-50%);
 }
 .footerDiv {
   margin-top: 5rem;
   background-color: black;
-  position: relative;
 }
 .scrolled {
   /* background-color: rgba(46, 149, 193, 0.95); */

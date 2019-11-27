@@ -19,36 +19,32 @@ const Contact = () => {
 
 
     <div className="sectionTitle contactDiv">
-      <Row>
-        <div className="welcomeTxt secondaryTxt">
-          Contact
+      <div className="welcomeTxt secondaryTxt">
+        Contact
         </div>
-      </Row>
       <Container>
         <Row>
-          <Col lg={6} md={6} sm={6} xs={6}>
-            <Col lg={6} md={6} sm={10} xs={10}>
-              <span className="contactName">
-                <strong>Layla Khoury</strong>
-              </span>
-              <br />
-              <span><p>Bridge House Properties, LLC</p></span>
-              <br />
-              <span className="contactLink"><a href="tel:2123619595">(212) 361-9595</a></span>
-              <br />
-              <span className="contactLink"><a href="mailto:lkhoury@bridgehouse.com">lkhoury@bridgehouse.com</a></span>
-            </Col>
+          <Col lg={6} md={6} sm={12} xs={12}>
+            <span className="contactName">
+              <strong>Layla Khoury</strong>
+            </span>
+            <br />
+            <span><p>Bridge House LIC, LLC</p></span>
+            <br />
+            <span className="contactLink"><a href="tel:2123619595">(212) 361-9595</a></span>
+            <br />
+            <span className="contactLink"><a href="mailto:lkhoury@bridgehouse.com">lkhoury@bridgehouselic.com</a></span>
           </Col>
-          <Col lg={6} md={6} sm={6} xs={6}>
+          <Col lg={6} md={6} sm={12} xs={12}>
             <span className="contactName">
               <strong>Benjamin Rangel</strong>
             </span>
             <br />
-            <span><p>Bridge House Properties, LLC</p></span>
+            <span><p>Bridge House LIC, LLC</p></span>
             <br />
             <span className="contactLink"><a href="tel:9172933156">(917) 293-3156</a></span>
             <br />
-            <span className="contactLink"><a href="mailto:brangel@bridgehouse.com">brangel@bridgehouse.com</a></span>
+            <span className="contactLink"><a href="mailto:brangel@bridgehouse.com">brangel@bridgehouselic.com</a></span>
           </Col>
         </Row >
       </Container>
