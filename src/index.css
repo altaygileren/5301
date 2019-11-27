@@ -458,6 +458,9 @@ body {
   .welcomeTxt {
     font-size: 2rem;
   }
+  .contactInfo {
+    margin-bottom: 5rem;
+  }
 }
 .col-3 {
   padding: 0;

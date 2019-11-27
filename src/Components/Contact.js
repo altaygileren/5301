@@ -24,7 +24,7 @@ const Contact = () => {
         </div>
       <Container>
         <Row>
-          <Col lg={6} md={6} sm={12} xs={12}>
+          <Col className="contactInfo" lg={6} md={6} sm={12} xs={12}>
             <span className="contactName">
               <strong>Layla Khoury</strong>
             </span>
@@ -35,7 +35,7 @@ const Contact = () => {
             <br />
             <span className="contactLink"><a href="mailto:lkhoury@bridgehouse.com">lkhoury@bridgehouselic.com</a></span>
           </Col>
-          <Col lg={6} md={6} sm={12} xs={12}>
+          <Col className="contactInfo" lg={6} md={6} sm={12} xs={12}>
             <span className="contactName">
               <strong>Benjamin Rangel</strong>
             </span>
