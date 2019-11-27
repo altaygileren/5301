@@ -29,7 +29,7 @@ const Contact = () => {
               <strong>Layla Khoury</strong>
             </span>
             <br />
-            <span><p>Bridge House LIC, LLC</p></span>
+            <span>Bridge House LIC, LLC</span>
             <br />
             <span className="contactLink"><a href="tel:2123619595">(212) 361-9595</a></span>
             <br />
@@ -40,7 +40,7 @@ const Contact = () => {
               <strong>Benjamin Rangel</strong>
             </span>
             <br />
-            <span><p>Bridge House LIC, LLC</p></span>
+            <span>Bridge House LIC, LLC</span>
             <br />
             <span className="contactLink"><a href="tel:9172933156">(917) 293-3156</a></span>
             <br />
