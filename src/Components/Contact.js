@@ -18,7 +18,7 @@ const Contact = () => {
 
 
 
-    <div className="sectionTitle contactDiv">
+    <div className="contactDiv">
       <div className="welcomeTxt secondaryTxt">
         Contact
         </div>

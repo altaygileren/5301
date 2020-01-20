@@ -1,6 +1,7 @@
 import React from 'react'
 import floorplan from '../img/floorplan.png';
 import { Row, Col } from 'react-bootstrap';
+import ModalImage from 'react-modal-image';
 
 const Floorplans = () => {
   return (
@@ -11,7 +12,13 @@ const Floorplans = () => {
     </div>
       </Row>
       <div className="transportationImgDiv">
-        <img className="floorPlansStyle" src={floorplan} />
+        <ModalImage
+          small={floorplan}
+          large={floorplan}
+          hideZoom={false}
+          hideDownload={false}
+        />
+        {/* <img className="floorPlansStyle" src={floorplan} /> */}
       </div>
     </div>
   )

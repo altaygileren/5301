@@ -49,8 +49,8 @@ function Buildingspecs() {
       </Row>
 
       <Row>
-        <Col lg={6} md={6} sm={12} xs={12}>
-          <div className="secondParallaxTxt">
+        <Col className="firstColBuildingSpec" lg={6} md={6} sm={12} xs={12}>
+          <div className="secondParallaxTxt firstCol">
             <Row>
               <Col lg={2}>Location</Col>
               <Col lg={10}>53-01 11th street, LIC, NY 11101</Col>
@@ -87,17 +87,17 @@ function Buildingspecs() {
             </Row>
             <hr />
             <Row>
-              <Col lg={2}>HVAC</Col>
+              <Col lg={2}>HVAC-Central Air</Col>
               <Col lg={10}>Tenant controlled</Col>
             </Row>
             <hr />
           </div>
         </Col>
-        <Col lg={6} md={6} sm={12} xs={12}>
+        <Col className="secondColBuildingSpec" lg={6} md={6} sm={12} xs={12}>
           <div className="secondParallaxTxt">
             <Row>
-              <Col lg={2}>Building class</Col>
-              <Col lg={10}>Fireproof warehouse</Col>
+              <Col lg={2}>Parking</Col>
+              <Col lg={10}>Onsite</Col>
             </Row>
             <hr />
             <Row>

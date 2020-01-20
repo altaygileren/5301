@@ -130,12 +130,12 @@ body {
 }
 .contactDiv {
   color: #323232;
-  text-align: left;
+  text-align: center;
 }
 .contactName {
   color: #323232;
   font-size: 1.5rem;
-  
+  text-align: center !important;
 }
 
 .parallaxTxt {
@@ -237,6 +237,7 @@ body {
 .directionsMapImg {
   width: 100%;
 }
+.
 
 .timeTitle {
   font-family: 'Saira Stencil One', cursive;
@@ -254,9 +255,9 @@ body {
 
 .sectionTitle {
   /* padding-top: 5rem; */
-  margin-top: 3rem;
+  margin-top: 1rem;
   text-align: left;
-  padding-top: 5rem;
+  /* padding-top: 5rem; */
 }
 .headerBrand {
   color: white;
@@ -315,7 +316,7 @@ body {
   background-color: white;
 }
 .transportationImgDiv {
-  margin: 1.5rem 3rem;
+  margin: 0 3rem;
   /* margin-top: 1.5rem;
   margin-right
   margin-bottom: 1.5rem; */
@@ -330,7 +331,7 @@ body {
 .secondaryTxt {
   font-size: 3rem;
   margin-left: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-family: 'Abril Fatface', cursive;
 }
 .transportationOptionsRow {
@@ -359,7 +360,7 @@ body {
 }
 .footerDiv {
   margin-top: 5rem;
-  background-color: black;
+  background-color: rgba(0, 111, 159, 1);
   padding: 2rem 0;
 }
 .scrolled {
@@ -379,6 +380,16 @@ body {
 @media only screen and (min-width: 320px) and (max-width: 479px){ 
   .parallaxTxt {
     font-size: 3rem;
+  }
+  .firstCol {
+    padding-bottom: 0;
+  }
+  .secondColBuildingSpec{
+    margin-top: 0rem;
+    padding-top: 0;
+  }
+  .firstColBuildingSpec {
+    padding-bottom: 0;
   }
   .floorPlansStyle {
     width: 100%;
@@ -423,6 +434,7 @@ body {
   }
   .contactDiv {
     height: 60vh;
+    text-align: center !important;
   }
   .timeCol {
     margin-bottom: 1rem;
@@ -447,6 +459,7 @@ body {
   }
   .contactName {
     font-size: 1rem;
+    text-align: center !important;
   }
   .contactLink a {
     color: black;
@@ -464,6 +477,15 @@ body {
 }
 .col-3 {
   padding: 0;
+}
+.contactDiv {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  height: 50vh;
+}
+.footerDiv {
+  margin-top: 0;
+  padding-top: 0;
 }
 
 
