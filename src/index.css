@@ -186,7 +186,6 @@ body {
   width: 100%;
   text-align: left;
   margin-left: 20rem;
-  /* color: rgb(121, 242, 255); */
 }
 .sevenTrain {
   background-color:	#9400D3;
@@ -453,6 +452,7 @@ body {
     padding: 0;
     color: red;
     margin-right: 1rem;
+    margin: 0;
   }
   .directLinks a {
     font-size: 0.80rem;
@@ -487,7 +487,10 @@ body {
   margin-top: 0;
   padding-top: 0;
 }
-
+.stickyTop {
+  padding: 0;
+  margin: 0;
+}
 
 /* @media only screen and (min-width: 480px) and (max-width: 767px){ 
   .stickyTop a {
