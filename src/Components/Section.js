@@ -15,6 +15,7 @@ import parallaximg2 from '../img/parallaximg2.png';
 import parallaximg3 from '../img/parallaximg3.png';
 import Parallax2 from './Parallax2';
 import Buildingspecs from './Buildingspecs';
+import Fade from 'react-reveal/Fade';
 
 const firstParallax = {
   img: `${parallaximg2}`,
@@ -85,29 +86,49 @@ class Section extends React.Component {
   render() {
     return (
       <div>
-        <Welcome />
-        <div className="moveUp">
-          <Hero />
-        </div>
-        <Element name="test2" className="element" >
-          <Youroffice />
-        </Element>
-        <Element name="test3" className="element">
-          <Transportation />
-        </Element>
-        <Photogallery />
-        <Element name="test5" className="element">
-          <Floorplans />
-        </Element>
-        {/* <Parallaximg info={secondParallax} /> */}
-        <Element name="test4" className="element">
-          <Buildingspecs />
-        </Element>
-        <Parallaximg info={firstParallax} />
-        <Element name="test6" className="element">
-          <Contact />
-        </Element>
-        <Footer />
+        <Fade bottom>
+          <Welcome />
+        </Fade>
+        <Fade bottom>
+          <div className="moveUp">
+            <Hero />
+          </div>
+        </Fade>
+        <Fade bottom>
+          <Element name="test2" className="element" >
+            <Youroffice />
+          </Element>
+        </Fade>
+        <Fade bottom>
+          <Element name="test3" className="element">
+            <Transportation />
+          </Element>
+        </Fade>
+        <Fade bottom>
+          <Photogallery />
+        </Fade>
+        <Fade bottom>
+          <Element name="test5" className="element">
+            <Floorplans />
+          </Element>
+        </Fade>
+        <Fade bottom>
+          {/* <Parallaximg info={secondParallax} /> */}
+          <Element name="test4" className="element">
+            <Buildingspecs />
+          </Element>
+        </Fade>
+        <Fade bottom>
+          <Parallaximg info={firstParallax} />
+        </Fade>
+        <Fade bottom>
+          <Element name="test6" className="element">
+            <Contact />
+          </Element>
+        </Fade>
+        <Fade bottom>
+          <Footer />
+        </Fade>
       </div>
     );
   }
