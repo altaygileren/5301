@@ -92,7 +92,7 @@ export default function Youroffice() {
         </div>
       <div>
         <Gallery photos={imgs} onClick={openLightbox} />
-        {/* <ModalGateway>
+        <ModalGateway>
           {viewerIsOpen ? (
             <Modal onClose={closeLightbox}>
               <Carousel
@@ -105,7 +105,7 @@ export default function Youroffice() {
               />
             </Modal>
           ) : null}
-        </ModalGateway> */}
+        </ModalGateway>
       </div>
     </div>
   );
