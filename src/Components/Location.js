@@ -3,10 +3,13 @@ import Locationimg from '../img/location.png';
 import { Container, Row } from 'react-bootstrap';
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
+import Rockawaybrewing from '../img/rockawaybrewing.jpeg';
+import Bricktown from '../img/bricktownbagel.jpg';
+
 const imgs = [
 
   {
-    src: `https://c8.alamy.com/comp/PAJ293/sweetleaf-coffee-roasters-10-93-jackson-ave-long-island-city-ny-PAJ293.jpg`,
+    src: `${Rockawaybrewing}`,
     width: 2,
     height: 1
   },
@@ -31,7 +34,7 @@ const imgs = [
     height: 1
   },
   {
-    src: `https://media-cdn.tripadvisor.com/media/photo-s/03/98/88/ee/bricktown-bagel-cafe.jpg`,
+    src: `${Bricktown}`,
     width: 2,
     height: 1
   },

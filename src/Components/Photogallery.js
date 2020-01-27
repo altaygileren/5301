@@ -11,27 +11,32 @@ import yourOfficeImg1 from '../img/1--2.jpg';
 import yourOfficeImg2 from '../img/1--5.jpg';
 import yourOfficeImg3 from '../img/1--8.jpg';
 import yourOfficeImg4 from '../img/1--11.jpg';
+import pepsiCola from '../img/pepsicola.jpg';
+import Sweetleaf from '../img/sweetleaf.jpg';
+import Bricktown from '../img/bricktownbagel.jpg';
+import Rockawaybrewing from '../img/rockawaybrewing.jpeg';
+import Seventrain from '../img/7train.jpg';
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 const imgs = [
 
   {
-    src: `https://c8.alamy.com/comp/PAJ293/sweetleaf-coffee-roasters-10-93-jackson-ave-long-island-city-ny-PAJ293.jpg`,
+    src: `${Sweetleaf}`,
     width: 2,
     height: 1
   },
   {
-    src: `https://c8.alamy.com/comp/MKK4M1/rockaway-brewing-company-lic-tap-room-46-01-5th-st-long-island-city-ny-MKK4M1.jpg`,
+    src: `${Rockawaybrewing}`,
     width: 2,
     height: 1
   },
   {
-    src: `https://3b54d614b0ba3daee3e7-22cdaf81fa4f84a86ca17cc2abb428ed.ssl.cf1.rackcdn.com/DL_PepsiCola.jpg`,
+    src: `${pepsiCola}`,
     width: 2,
     height: 1
   },
   {
-    src: `https://c8.alamy.com/comp/R209CY/no-7-subway-train-long-island-city-queens-queens-plaza-new-york-city-R209CY.jpg`,
+    src: `${Seventrain}`,
     width: 2,
     height: 1
   },
@@ -41,7 +46,7 @@ const imgs = [
     height: 1
   },
   {
-    src: `https://media-cdn.tripadvisor.com/media/photo-s/03/98/88/ee/bricktown-bagel-cafe.jpg`,
+    src: `${Bricktown}`,
     width: 2,
     height: 1
   },

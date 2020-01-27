@@ -1,6 +1,7 @@
 import React, { useState, useCallback } from "react";
 import { Container, Row, Col } from 'react-bootstrap';
 import kitchen from '../img/1--11.jpg';
+import kitchen2 from '../img/kitchen.jpg';
 import floor1 from '../img/1--15.jpg'
 import floor2 from '../img/1--14.jpg'
 import floor3 from '../img/1--13.jpg'
@@ -9,53 +10,58 @@ import yourOfficeImg1 from '../img/1--2.jpg';
 import yourOfficeImg2 from '../img/1--5.jpg';
 import yourOfficeImg3 from '../img/1--8.jpg';
 import yourOfficeImg4 from '../img/1--11.jpg';
+import exterior2 from '../img/exterior2.jpg';
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 const imgs = [
-
-  {
-    src: `${kitchen}`,
-    width: 3,
-    height: 1
-  },
   {
     src: `${floor1}`,
-    width: 2,
-    height: 1
+    width: 3,
+    height: 2
   },
   {
     src: `${floor2}`,
-    width: 2,
-    height: 1
+    width: 3,
+    height: 2
   },
   {
     src: `${floor3}`,
     width: 3,
-    height: 1
+    height: 2
   },
   {
     src: `${floor4}`,
-    width: 2,
-    height: 1
+    width: 3,
+    height: 2
   },
   {
     src: `${yourOfficeImg1}`,
-    width: 2,
-    height: 1
+    width: 3,
+    height: 2
   },
   {
     src: `${yourOfficeImg2}`,
-    width: 2,
-    height: 1
+    width: 3,
+    height: 2
   },
   {
     src: `${yourOfficeImg3}`,
-    width: 2,
-    height: 1
+    width: 3,
+    height: 2
+  },
+  {
+    src: `${kitchen2}`,
+    width: 3,
+    height: 2
   },
   {
     src: `${yourOfficeImg4}`,
-    width: 2,
+    width: 3,
+    height: 2
+  },
+  {
+    src: `${exterior2}`,
+    width: 4,
     height: 1
   }
 ]
@@ -86,7 +92,7 @@ export default function Youroffice() {
         </div>
       <div>
         <Gallery photos={imgs} onClick={openLightbox} />
-        <ModalGateway>
+        {/* <ModalGateway>
           {viewerIsOpen ? (
             <Modal onClose={closeLightbox}>
               <Carousel
@@ -99,7 +105,7 @@ export default function Youroffice() {
               />
             </Modal>
           ) : null}
-        </ModalGateway>
+        </ModalGateway> */}
       </div>
     </div>
   );
