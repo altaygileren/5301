@@ -94,7 +94,7 @@ class Section extends React.Component {
       <Navbar fixed="top" className={`stickyTop ${this.state.activeClass}`} expand="lg">
         <Col lg={3} xs={12}>
           <p className="headerBrand">
-            <b>BridgeHouse LIC</b>
+            <b>Bridge House LIC</b>
             <hr />
             <span>53-01 11th Street LIC, NY</span>
           </p>
@@ -109,7 +109,7 @@ class Section extends React.Component {
                 <Link activeClass="active" className="test3 directLinks" to="test3" spy={true} smooth={true} duration={500}>Location</Link>
               </Col>
               <Col>
-                <Link activeClass="active" className="test5 directLinks" to="test5" spy={true} smooth={true} duration={500}>Floor plan</Link>
+                <Link activeClass="active" className="test5 directLinks" to="test5" spy={true} smooth={true} duration={500}>Floorplan</Link>
               </Col>
               <Col>
                 <Link activeClass="active" className="test4 directLinks" to="test4" spy={true} smooth={true} duration={500}>Specs</Link>

@@ -8,7 +8,7 @@ const Floorplans = () => {
     <div className="sectionTitle">
       <Row>
         <div className="welcomeTxt secondaryTxt">
-          Floor plans
+          Floorplan
     </div>
       </Row>
       <div className="transportationImgDiv">

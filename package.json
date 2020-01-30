@@ -9,6 +9,7 @@
     "react-bootstrap": "^1.0.0-beta.14",
     "react-dom": "^16.10.2",
     "react-grid-system": "^6.0.2",
+    "react-image-lightbox": "^5.1.1",
     "react-images": "^1.0.0",
     "react-modal-image": "^2.5.0",
     "react-parallax": "^2.2.4",
