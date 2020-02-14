@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/5301/static/css/main.0a6ec029.chunk.css",
-    "main.js": "/5301/static/js/main.b37e08e2.chunk.js",
-    "main.js.map": "/5301/static/js/main.b37e08e2.chunk.js.map",
+    "main.css": "/5301/static/css/main.37181cb3.chunk.css",
+    "main.js": "/5301/static/js/main.ef42ca9d.chunk.js",
+    "main.js.map": "/5301/static/js/main.ef42ca9d.chunk.js.map",
     "runtime-main.js": "/5301/static/js/runtime-main.26c760d4.js",
     "runtime-main.js.map": "/5301/static/js/runtime-main.26c760d4.js.map",
-    "static/js/2.ad9a4fb6.chunk.js": "/5301/static/js/2.ad9a4fb6.chunk.js",
-    "static/js/2.ad9a4fb6.chunk.js.map": "/5301/static/js/2.ad9a4fb6.chunk.js.map",
+    "static/js/2.6db7447b.chunk.js": "/5301/static/js/2.6db7447b.chunk.js",
+    "static/js/2.6db7447b.chunk.js.map": "/5301/static/js/2.6db7447b.chunk.js.map",
     "index.html": "/5301/index.html",
-    "precache-manifest.790ecd0b610a803f3327461a34e5303e.js": "/5301/precache-manifest.790ecd0b610a803f3327461a34e5303e.js",
+    "precache-manifest.c4f248989c390663dedb394d19c4e39a.js": "/5301/precache-manifest.c4f248989c390663dedb394d19c4e39a.js",
     "service-worker.js": "/5301/service-worker.js",
-    "static/css/main.0a6ec029.chunk.css.map": "/5301/static/css/main.0a6ec029.chunk.css.map",
+    "static/css/main.37181cb3.chunk.css.map": "/5301/static/css/main.37181cb3.chunk.css.map",
     "static/media/1--11.jpg": "/5301/static/media/1--11.c1c7cb02.jpg",
     "static/media/1--13.jpg": "/5301/static/media/1--13.518d2a79.jpg",
     "static/media/1--14.jpg": "/5301/static/media/1--14.8fc79012.jpg",
@@ -24,14 +24,16 @@
     "static/media/addressMap.png": "/5301/static/media/addressMap.45c0bd41.png",
     "static/media/bricktownbagel.jpg": "/5301/static/media/bricktownbagel.0ad9d8b7.jpg",
     "static/media/bridgeHouseLogo.png": "/5301/static/media/bridgeHouseLogo.b7bd23f4.png",
+    "static/media/index.css": "/5301/static/media/butler_extrabold.274d8d65.otf",
     "static/media/directionsmap.png": "/5301/static/media/directionsmap.40ccaa83.png",
     "static/media/exterior.jpg": "/5301/static/media/exterior.8c91bd5c.jpg",
     "static/media/exterior2.jpg": "/5301/static/media/exterior2.8c91bd5c.jpg",
+    "static/media/ferry.jpg": "/5301/static/media/ferry.65787e67.jpg",
     "static/media/floor1.jpg": "/5301/static/media/floor1.6c6c5ca2.jpg",
     "static/media/floor2.jpg": "/5301/static/media/floor2.4a2e4944.jpg",
     "static/media/floor3.jpg": "/5301/static/media/floor3.73408113.jpg",
     "static/media/floor4.jpg": "/5301/static/media/floor4.248224e5.jpg",
-    "static/media/floorplan.png": "/5301/static/media/floorplan.5feb182a.png",
+    "static/media/floorplan.png": "/5301/static/media/floorplan.b53dae5d.png",
     "static/media/kitchen.jpg": "/5301/static/media/kitchen.9af8d791.jpg",
     "static/media/location.png": "/5301/static/media/location.02001d42.png",
     "static/media/mapLocation.png": "/5301/static/media/mapLocation.45c0bd41.png",
@@ -45,8 +47,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.26c760d4.js",
-    "static/js/2.ad9a4fb6.chunk.js",
-    "static/css/main.0a6ec029.chunk.css",
-    "static/js/main.b37e08e2.chunk.js"
+    "static/js/2.6db7447b.chunk.js",
+    "static/css/main.37181cb3.chunk.css",
+    "static/js/main.ef42ca9d.chunk.js"
   ]
 }
