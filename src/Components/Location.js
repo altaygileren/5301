@@ -5,6 +5,7 @@ import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import Rockawaybrewing from '../img/rockawaybrewing.jpeg';
 import Bricktown from '../img/bricktownbagel.jpg';
+import Ferry from '../img/ferry.jpg';
 
 const imgs = [
 
@@ -39,7 +40,7 @@ const imgs = [
     height: 1
   },
   {
-    src: `https://qns.com/wp-content/uploads/2018/09/ferries_2018_08_31_q01_z.jpg`,
+    src: `${Ferry}`,
     width: 2,
     height: 1
   }
@@ -62,7 +63,7 @@ export default function Location() {
     <div className="sectionTitle">
       <Row>
         <div className="welcomeTxt secondaryTxt">
-          Location
+          Location, Location, Location
         </div>
       </Row>
       <div>

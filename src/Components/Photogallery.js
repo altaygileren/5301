@@ -18,6 +18,8 @@ import Rockawaybrewing from '../img/rockawaybrewing.jpeg';
 import Seventrain from '../img/7train.jpg';
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
+import Ferry from '../img/ferry.jpg';
+
 const imgs = [
 
   {
@@ -51,7 +53,7 @@ const imgs = [
     height: 1
   },
   {
-    src: `https://qns.com/wp-content/uploads/2018/09/ferries_2018_08_31_q01_z.jpg`,
+    src: `${Ferry}`,
     width: 2,
     height: 1
   }

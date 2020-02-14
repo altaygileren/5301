@@ -23,28 +23,52 @@ const Contact = () => {
         Contact
         </div>
       <Container>
+      <Row>
+          <Col className="contactInfo" lg={6} md={6} sm={12} xs={12}>
+            <span className="contactName">
+              <strong>Padraig Naughton - Owner</strong>
+            </span>
+            <br />
+            <span>Bridge House LIC, LLC</span>
+            <br />
+            <span className="contactLink"><a href="tel:2123619595">(914) 643-48920</a></span>
+            <br />
+            <span className="contactLink"><a href="mailto:lkhoury@bridgehouse.com">PNaughton@BridgeHouseLIC.com</a></span>
+          </Col>
+          <Col className="contactInfo" lg={6} md={6} sm={12} xs={12}>
+            <span className="contactName">
+              <strong>Michael Lombardo</strong>
+            </span>
+            <br />
+            <span>Bridge House LIC, LLC - Owner</span>
+            <br />
+            <span className="contactLink"><a href="tel:9172933156">(516) 884-5806</a></span>
+            <br />
+            <span className="contactLink"><a href="mailto:brangel@bridgehouse.com">MLombardo@BridgeHouseLIC.com</a></span>
+          </Col>
+        </Row >
         <Row>
           <Col className="contactInfo" lg={6} md={6} sm={12} xs={12}>
             <span className="contactName">
-              <strong>Layla Khoury</strong>
+              <strong>Layla Khoury - Associate</strong>
             </span>
             <br />
             <span>Bridge House LIC, LLC</span>
             <br />
             <span className="contactLink"><a href="tel:2123619595">(212) 361-9595</a></span>
             <br />
-            <span className="contactLink"><a href="mailto:lkhoury@bridgehouse.com">lkhoury@bridgehouselic.com</a></span>
+            <span className="contactLink"><a href="mailto:lkhoury@bridgehouse.com">LKhoury@BridgeHouseLIC.com</a></span>
           </Col>
           <Col className="contactInfo" lg={6} md={6} sm={12} xs={12}>
             <span className="contactName">
-              <strong>Benjamin Rangel</strong>
+              <strong>Benjamin Rangel - Associate</strong>
             </span>
             <br />
             <span>Bridge House LIC, LLC</span>
             <br />
             <span className="contactLink"><a href="tel:9172933156">(917) 293-3156</a></span>
             <br />
-            <span className="contactLink"><a href="mailto:brangel@bridgehouse.com">brangel@bridgehouselic.com</a></span>
+            <span className="contactLink"><a href="mailto:brangel@bridgehouse.com">BRangel@bridgehouselic.com</a></span>
           </Col>
         </Row >
       </Container>
