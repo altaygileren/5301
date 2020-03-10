@@ -22,7 +22,7 @@ const Transportation = () => {
     <div className="sectionTitle">
       <Row>
         <div className="welcomeTxt secondaryTxt">
-          Location
+          Location, Location, Location
     </div>
       </Row>
       <div className="transportationOptionsRow">

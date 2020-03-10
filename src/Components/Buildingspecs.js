@@ -53,7 +53,7 @@ function Buildingspecs() {
           <div className="secondParallaxTxt firstCol">
             <Row>
               <Col lg={2}>Location</Col>
-              <Col lg={10}>53-01 11th street, LIC, NY 11101</Col>
+              <Col lg={10}>53-01 11th Street, LIC, NY 11101</Col>
             </Row>
             <hr />
             <Row>

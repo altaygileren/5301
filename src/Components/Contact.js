@@ -23,10 +23,10 @@ const Contact = () => {
         Contact
         </div>
       <Container>
-      <Row>
+      <Row className="contactRow1">
           <Col className="contactInfo" lg={6} md={6} sm={12} xs={12}>
             <span className="contactName">
-              <strong>Padraig Naughton - Owner</strong>
+              <strong>Padraig Naughton - Property Manager</strong>
             </span>
             <br />
             <span>Bridge House LIC, LLC</span>
@@ -37,17 +37,17 @@ const Contact = () => {
           </Col>
           <Col className="contactInfo" lg={6} md={6} sm={12} xs={12}>
             <span className="contactName">
-              <strong>Michael Lombardo</strong>
+              <strong>Michael Lombardo - Property Manager</strong>
             </span>
             <br />
-            <span>Bridge House LIC, LLC - Owner</span>
+            <span>Bridge House LIC, LLC</span>
             <br />
             <span className="contactLink"><a href="tel:9172933156">(516) 884-5806</a></span>
             <br />
             <span className="contactLink"><a href="mailto:brangel@bridgehouse.com">MLombardo@BridgeHouseLIC.com</a></span>
           </Col>
         </Row >
-        <Row>
+        <Row className="contactInfoRow2">
           <Col className="contactInfo" lg={6} md={6} sm={12} xs={12}>
             <span className="contactName">
               <strong>Layla Khoury - Associate</strong>
@@ -68,7 +68,7 @@ const Contact = () => {
             <br />
             <span className="contactLink"><a href="tel:9172933156">(917) 293-3156</a></span>
             <br />
-            <span className="contactLink"><a href="mailto:brangel@bridgehouse.com">BRangel@bridgehouselic.com</a></span>
+            <span className="contactLink"><a href="mailto:brangel@bridgehouse.com">BRangel@BridgeHouseLIC.com</a></span>
           </Col>
         </Row >
       </Container>
