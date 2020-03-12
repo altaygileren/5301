@@ -2,6 +2,22 @@
   font-family: "Butlerextrabold";
   src: url('./Extras/butler_extrabold.otf')
 }
+@font-face {
+  font-family: "Asche";
+  src: url('./Extras/Asche-Bold.otf')
+}
+@font-face {
+  font-family: "holtzberg";
+  src: url('./Extras/Holtzberg-Regular.otf')
+}
+@font-face {
+  font-family: "foreign";
+  src: url('./Extras/foreignregular.otf')
+}
+@font-face {
+  font-family: "whisky";
+  src: url('./Extras/WhiskeySourSans-Regular.otf')
+}
 
 body {
   margin: 0;
@@ -29,7 +45,7 @@ body {
   margin-bottom: 2rem;
 }
 .divTitle {
-  font-family: 'Butlerextrabold';
+  font-family: 'whisky';
   font-size: 4rem;
   margin-top: 0;
   color: #323232;
@@ -40,12 +56,12 @@ body {
 }
 .heroTxt {
   /* font-family: 'Saira Stencil One', cursive; */
-  font-family: 'Butlerextrabold';
+  font-family: 'whisky';
   font-size: 8rem;
 }
 .secondaryHeroTxt {
   /* font-family: 'Saira Stencil One', cursive; */
-  font-family: 'Butlerextrabold';
+  font-family: 'whisky';
   font-size: 3rem;
   margin-bottom: 2rem;
 }
@@ -149,7 +165,7 @@ body {
 }
 
 .parallaxTxt {
-  font-family: 'Butlerextrabold';
+  font-family: 'whisky';
   font-size: 5rem;
 }
 .subTitle {
@@ -336,10 +352,10 @@ body {
 }
 
 .secondaryTxt {
-  font-size: 3rem;
+  font-size: 5rem;
   margin-left: 2rem;
   margin-bottom: 1rem;
-  font-family: 'Butlerextrabold';
+  font-family: 'whisky';
 }
 .transportationOptionsRow {
   text-align: center;
@@ -354,7 +370,7 @@ body {
   /* font-weight: bold; */
   /* color: #0054C0; */
   font-size: 1.8rem;
-  font-family: 'Butlerextrabold';
+  font-family: 'whisky';
 }
 .footerTxt {
   /* color: rgb(72, 72, 72); */

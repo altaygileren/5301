@@ -1,5 +1,5 @@
 import React from 'react'
-import { Parallax, Background } from 'react-parallax';
+import { Parallax } from 'react-parallax';
 import { Container, Row, Col } from 'react-bootstrap';
 import officeImg from '../img/parallaximg3.png';
 const Parallax2 = (props) => {

@@ -1,6 +1,5 @@
 import React, { useState, useCallback } from "react";
-import Locationimg from '../img/location.png';
-import { Container, Row } from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import Rockawaybrewing from '../img/rockawaybrewing.jpeg';
@@ -86,5 +85,3 @@ export default function Location() {
     </div>
   )
 }
-
-// export default Location;

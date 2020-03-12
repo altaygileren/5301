@@ -1,16 +1,6 @@
 // import React from 'react'
 // import Gallery from 'react-grid-gallery';
 import React, { useState, useCallback } from "react";
-import { render } from "react-dom";
-import kitchen from '../img/1--11.jpg';
-import floor1 from '../img/1--15.jpg'
-import floor2 from '../img/1--14.jpg'
-import floor3 from '../img/1--13.jpg'
-import floor4 from '../img/1--9.jpg'
-import yourOfficeImg1 from '../img/1--2.jpg';
-import yourOfficeImg2 from '../img/1--5.jpg';
-import yourOfficeImg3 from '../img/1--8.jpg';
-import yourOfficeImg4 from '../img/1--11.jpg';
 import pepsiCola from '../img/pepsicola.jpg';
 import Sweetleaf from '../img/sweetleaf.jpg';
 import Bricktown from '../img/bricktownbagel.jpg';

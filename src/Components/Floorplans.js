@@ -1,6 +1,6 @@
 import React from 'react'
 import floorplan from '../img/floorplan.png';
-import { Row, Col } from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
 import ModalImage from 'react-modal-image';
 
 const Floorplans = () => {
@@ -17,6 +17,7 @@ const Floorplans = () => {
           large={floorplan}
           hideZoom={false}
           hideDownload={false}
+          imageBackgroundColor={'white'}
         />
         {/* <img className="floorPlansStyle" src={floorplan} /> */}
       </div>

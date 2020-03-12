@@ -1,24 +1,8 @@
 import React from 'react';
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
-import { Container, Row, Col, Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
-import Hero from './Hero';
-import Floorplans from './Floorplans';
-import Welcome from './Welcome';
-import Photogallery from './Photogallery';
-import Contact from './Contact';
-import Parallaximg from './Parallaximg';
+import { Link, Events, animateScroll as scroll, scroller } from 'react-scroll'
+import { Row, Col, Navbar, Nav } from 'react-bootstrap';
 import parallaximg2 from '../img/parallaximg2.png';
 import parallaximg3 from '../img/parallaximg3.png';
-import Logo from '../img/bridgeHouseLogo.png';
-
-const firstParallax = {
-  img: `${parallaximg2}`,
-  txt: 'Text will be here'
-}
-const secondParallax = {
-  img: `${parallaximg3}`,
-  txt: 'This is more text'
-}
 
 class Section extends React.Component {
 
