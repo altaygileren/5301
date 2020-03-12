@@ -15,7 +15,7 @@ export default class Hero extends Component {
           <div className="heroImgDiv" style={{ height: 1000 }}>
             <div className="heroDiv">
               <p className="heroTxt">Bridge House LIC</p>
-              <p className="secondaryHeroTxt">In Long Island City - The Gateway To Success</p>
+              <p className="secondaryHeroTxt">In Long Island City - The Gatway To Success</p>
             </div>
           </div>
         </Parallax>
