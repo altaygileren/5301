@@ -45,7 +45,7 @@ body {
   margin-bottom: 2rem;
 }
 .divTitle {
-  font-family: 'whisky';
+  font-family: 'Butlerextrabold';
   font-size: 4rem;
   margin-top: 0;
   color: #323232;
@@ -56,12 +56,12 @@ body {
 }
 .heroTxt {
   /* font-family: 'Saira Stencil One', cursive; */
-  font-family: 'whisky';
+  font-family: 'Butlerextrabold';
   font-size: 8rem;
 }
 .secondaryHeroTxt {
   /* font-family: 'Saira Stencil One', cursive; */
-  font-family: 'whisky';
+  font-family: 'Butlerextrabold';
   font-size: 3rem;
   margin-bottom: 2rem;
 }
@@ -165,7 +165,7 @@ body {
 }
 
 .parallaxTxt {
-  font-family: 'whisky';
+  font-family: 'Butlerextrabold';
   font-size: 5rem;
 }
 .subTitle {
@@ -355,7 +355,7 @@ body {
   font-size: 5rem;
   margin-left: 2rem;
   margin-bottom: 1rem;
-  font-family: 'whisky';
+  font-family: 'Butlerextrabold';
 }
 .transportationOptionsRow {
   text-align: center;
@@ -370,7 +370,7 @@ body {
   /* font-weight: bold; */
   /* color: #0054C0; */
   font-size: 1.8rem;
-  font-family: 'whisky';
+  font-family: 'Butlerextrabold';
 }
 .footerTxt {
   /* color: rgb(72, 72, 72); */
